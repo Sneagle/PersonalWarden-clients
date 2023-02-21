@@ -1,12 +1,12 @@
-import { CryptoService } from "@bitwarden/common/abstractions/crypto.service";
-import { EncryptService } from "@bitwarden/common/abstractions/encrypt.service";
-import { AuthService } from "@bitwarden/common/auth/abstractions/auth.service";
-import { AuthenticationStatus } from "@bitwarden/common/auth/enums/authentication-status";
-import { StateFactory } from "@bitwarden/common/factories/stateFactory";
-import { Utils } from "@bitwarden/common/misc/utils";
-import { GlobalState } from "@bitwarden/common/models/domain/global-state";
-import { ContainerService } from "@bitwarden/common/services/container.service";
-import { CipherService } from "@bitwarden/common/vault/abstractions/cipher.service";
+import { CryptoService } from "@personalwarden/common/abstractions/crypto.service";
+import { EncryptService } from "@personalwarden/common/abstractions/encrypt.service";
+import { AuthService } from "@personalwarden/common/auth/abstractions/auth.service";
+import { AuthenticationStatus } from "@personalwarden/common/auth/enums/authentication-status";
+import { StateFactory } from "@personalwarden/common/factories/stateFactory";
+import { Utils } from "@personalwarden/common/misc/utils";
+import { GlobalState } from "@personalwarden/common/models/domain/global-state";
+import { ContainerService } from "@personalwarden/common/services/container.service";
+import { CipherService } from "@personalwarden/common/vault/abstractions/cipher.service";
 
 import { authServiceFactory } from "../auth/background/service-factories/auth-service.factory";
 import { searchServiceFactory } from "../background/service_factories/search-service.factory";
@@ -199,7 +199,7 @@ export class UpdateBadge {
       this.sidebarAction.setBadgeText({ text, tabId });
     } else if (this.sidebarAction) {
       // Firefox
-      const title = `Bitwarden${Utils.isNullOrEmpty(text) ? "" : ` [${text}]`}`;
+      const title = `PersonalWarden${Utils.isNullOrEmpty(text) ? "" : ` [${text}]`}`;
       this.sidebarAction.setTitle({ title, tabId });
     }
   }
@@ -287,7 +287,7 @@ export class UpdateBadge {
     });
 
     // Needed for cipher decryption
-    if (!self.bitwardenContainerService) {
+    if (!self.personalwardenContainerService) {
       new ContainerService(
         serviceCache.cryptoService as CryptoService,
         serviceCache.encryptService as EncryptService

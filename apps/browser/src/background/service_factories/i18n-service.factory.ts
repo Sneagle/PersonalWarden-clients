@@ -1,5 +1,5 @@
-import { I18nService as AbstractI18nService } from "@bitwarden/common/abstractions/i18n.service";
-import { I18nService as BaseI18nService } from "@bitwarden/common/services/i18n.service";
+import { I18nService as AbstractI18nService } from "@personalwarden/common/abstractions/i18n.service";
+import { I18nService as BaseI18nService } from "@personalwarden/common/services/i18n.service";
 
 import I18nService from "../../services/i18n.service";
 

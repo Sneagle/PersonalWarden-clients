@@ -2,9 +2,9 @@ import { DatePipe } from "@angular/common";
 import { Component, EventEmitter, Input, Output } from "@angular/core";
 import { ControlContainer, NgForm } from "@angular/forms";
 
-import { EffluxDatesComponent as BaseEffluxDatesComponent } from "@bitwarden/angular/components/send/efflux-dates.component";
-import { I18nService } from "@bitwarden/common/abstractions/i18n.service";
-import { PlatformUtilsService } from "@bitwarden/common/abstractions/platformUtils.service";
+import { EffluxDatesComponent as BaseEffluxDatesComponent } from "@personalwarden/angular/components/send/efflux-dates.component";
+import { I18nService } from "@personalwarden/common/abstractions/i18n.service";
+import { PlatformUtilsService } from "@personalwarden/common/abstractions/platformUtils.service";
 
 @Component({
   selector: "app-send-efflux-dates",

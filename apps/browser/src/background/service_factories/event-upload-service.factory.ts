@@ -1,5 +1,5 @@
-import { EventUploadService as AbstractEventUploadService } from "@bitwarden/common/abstractions/event/event-upload.service";
-import { EventUploadService } from "@bitwarden/common/services/event/event-upload.service";
+import { EventUploadService as AbstractEventUploadService } from "@personalwarden/common/abstractions/event/event-upload.service";
+import { EventUploadService } from "@personalwarden/common/services/event/event-upload.service";
 
 import { apiServiceFactory, ApiServiceInitOptions } from "./api-service.factory";
 import { FactoryOptions, CachedServices, factory } from "./factory-options";

@@ -3,10 +3,10 @@ import { Component } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
 import { first } from "rxjs/operators";
 
-import { PasswordHistoryComponent as BasePasswordHistoryComponent } from "@bitwarden/angular/vault/components/password-history.component";
-import { I18nService } from "@bitwarden/common/abstractions/i18n.service";
-import { PlatformUtilsService } from "@bitwarden/common/abstractions/platformUtils.service";
-import { CipherService } from "@bitwarden/common/vault/abstractions/cipher.service";
+import { PasswordHistoryComponent as BasePasswordHistoryComponent } from "@personalwarden/angular/vault/components/password-history.component";
+import { I18nService } from "@personalwarden/common/abstractions/i18n.service";
+import { PlatformUtilsService } from "@personalwarden/common/abstractions/platformUtils.service";
+import { CipherService } from "@personalwarden/common/vault/abstractions/cipher.service";
 
 @Component({
   selector: "app-password-history",

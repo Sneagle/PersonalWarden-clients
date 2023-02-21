@@ -14,10 +14,10 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { BrowserModule } from "@angular/platform-browser";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
-import { BitwardenToastModule } from "@bitwarden/angular/components/toastr.component";
-import { JslibModule } from "@bitwarden/angular/jslib.module";
-import { ColorPasswordCountPipe } from "@bitwarden/angular/pipes/color-password-count.pipe";
-import { ColorPasswordPipe } from "@bitwarden/angular/pipes/color-password.pipe";
+import { PersonalWardenToastModule } from "@personalwarden/angular/components/toastr.component";
+import { JslibModule } from "@personalwarden/angular/jslib.module";
+import { ColorPasswordCountPipe } from "@personalwarden/angular/pipes/color-password-count.pipe";
+import { ColorPasswordPipe } from "@personalwarden/angular/pipes/color-password.pipe";
 
 import { EnvironmentComponent } from "../auth/popup/environment.component";
 import { HintComponent } from "../auth/popup/hint.component";
@@ -79,7 +79,7 @@ import { TabsComponent } from "./tabs.component";
   imports: [
     A11yModule,
     AppRoutingModule,
-    BitwardenToastModule.forRoot({
+    PersonalWardenToastModule.forRoot({
       maxOpened: 2,
       autoDismiss: true,
       closeButton: true,

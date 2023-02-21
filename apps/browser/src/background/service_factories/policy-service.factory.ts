@@ -1,4 +1,4 @@
-import { PolicyService as AbstractPolicyService } from "@bitwarden/common/abstractions/policy/policy.service.abstraction";
+import { PolicyService as AbstractPolicyService } from "@personalwarden/common/abstractions/policy/policy.service.abstraction";
 
 import { BrowserPolicyService } from "../../services/browser-policy.service";
 

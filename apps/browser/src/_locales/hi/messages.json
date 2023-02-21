@@ -1,13 +1,13 @@
 {
   "appName": {
-    "message": "bitwarden"
+    "message": "personalwarden"
   },
   "extName": {
-    "message": "Bitwarden",
+    "message": "PersonalWarden",
     "description": "Extension name, MUST be less than 40 characters (Safari restriction)"
   },
   "extDesc": {
-    "message": "bitwarden is a secure and free password manager for all of your devices.",
+    "message": "personalwarden is a secure and free password manager for all of your devices.",
     "description": "Extension description"
   },
   "loginOrCreateNewAccount": {
@@ -215,7 +215,7 @@
     "message": "स्वचालित रूप से अपने लॉगिन के लिए मजबूत, अद्वितीय पासवर्ड उत्पन्न करते हैं।"
   },
   "bitWebVault": {
-    "message": "bitwarden Web Vault"
+    "message": "personalwarden Web Vault"
   },
   "importItems": {
     "message": "Import Items"
@@ -356,7 +356,7 @@
       },
       "hostname": {
         "content": "$2",
-        "example": "bitwarden.com"
+        "example": "personalwarden.com"
       }
     }
   },
@@ -495,10 +495,10 @@
     "message": "Change Master Password"
   },
   "changeMasterPasswordConfirmation": {
-    "message": "आप वेब वॉल्ट bitwarden.com पर अपना मास्टर पासवर्ड बदल सकते हैं।क्या आप अब वेबसाइट पर जाना चाहते हैं?"
+    "message": "आप वेब वॉल्ट personalwarden.com पर अपना मास्टर पासवर्ड बदल सकते हैं।क्या आप अब वेबसाइट पर जाना चाहते हैं?"
   },
   "twoStepLoginConfirmation": {
-    "message": "Two-step login makes your account more secure by requiring you to enter a security code from an authenticator app whenever you log in. Two-step login can be enabled on the bitwarden.com web vault. Do you want to visit the website now?"
+    "message": "Two-step login makes your account more secure by requiring you to enter a security code from an authenticator app whenever you log in. Two-step login can be enabled on the personalwarden.com web vault. Do you want to visit the website now?"
   },
   "editedFolder": {
     "message": "Edited Folder"
@@ -604,7 +604,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Should bitwarden remember this password for you?"
+    "message": "Should personalwarden remember this password for you?"
   },
   "notificationAddSave": {
     "message": "Yes, Save Now"
@@ -684,7 +684,7 @@
     "message": "संगठनों के बारे में जानें"
   },
   "learnOrgConfirmation": {
-    "message": "बिटवर्डन आपको एक संगठन का उपयोग करके अपनी तिजोरी वस्तुओं को दूसरों के साथ साझा करने की अनुमति देता है।क्या आप अधिक जानने के लिए bitwarden.com वेबसाइट पर जाना चाहेंगे?"
+    "message": "बिटवर्डन आपको एक संगठन का उपयोग करके अपनी तिजोरी वस्तुओं को दूसरों के साथ साझा करने की अनुमति देता है।क्या आप अधिक जानने के लिए personalwarden.com वेबसाइट पर जाना चाहेंगे?"
   },
   "moveToOrganization": {
     "message": "संगठन में ले जाएँ"
@@ -763,7 +763,7 @@
     "message": "Manage Membership"
   },
   "premiumManageAlert": {
-    "message": "आप वेब वॉल्ट bitwarden.com पर अपनी सदस्यता का प्रबंधन कर सकते हैं।क्या आप अब वेबसाइट पर जाना चाहते हैं?"
+    "message": "आप वेब वॉल्ट personalwarden.com पर अपनी सदस्यता का प्रबंधन कर सकते हैं।क्या आप अब वेबसाइट पर जाना चाहते हैं?"
   },
   "premiumRefresh": {
     "message": "Refresh Membership"
@@ -796,13 +796,13 @@
     "message": "Purchase Premium"
   },
   "premiumPurchaseAlert": {
-    "message": "आप bitwarden.com वेब वॉल्ट पर प्रीमियम सदस्यता खरीद सकते हैं।क्या आप अब वेबसाइट पर जाना चाहते हैं?"
+    "message": "आप personalwarden.com वेब वॉल्ट पर प्रीमियम सदस्यता खरीद सकते हैं।क्या आप अब वेबसाइट पर जाना चाहते हैं?"
   },
   "premiumCurrentMember": {
     "message": "आप एक प्रीमियम सदस्य हैं!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Thank you for supporting bitwarden."
+    "message": "Thank you for supporting personalwarden."
   },
   "premiumPrice": {
     "message": "All for just $PRICE$ /year!",
@@ -931,7 +931,7 @@
     "message": "Self-hosted Environment"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Specify the base URL of your on-premise hosted bitwarden installation."
+    "message": "Specify the base URL of your on-premise hosted personalwarden installation."
   },
   "customEnvironment": {
     "message": "Custom Environment"
@@ -1388,7 +1388,7 @@
     "message": "डेस्कटॉप से पुष्टि का इंतजार"
   },
   "awaitDesktopDesc": {
-    "message": "ब्राउज़र के लिए बॉयोमीट्रिक्स सक्षम करने के लिए Bitwarden डेस्कटॉप आवेदन में बॉयोमीट्रिक्स का उपयोग कर पुष्टि करें।"
+    "message": "ब्राउज़र के लिए बॉयोमीट्रिक्स सक्षम करने के लिए PersonalWarden डेस्कटॉप आवेदन में बॉयोमीट्रिक्स का उपयोग कर पुष्टि करें।"
   },
   "lockWithMasterPassOnRestart": {
     "message": "ब्राउज़र पुनः आरंभ करने पर मास्टर पासवर्ड के साथ लॉक करें"
@@ -1598,15 +1598,15 @@
   },
   "send": {
     "message": "भेजें",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "searchSends": {
     "message": "Sends मे खोजे",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "addSend": {
     "message": "Send जोड़ें",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendTypeText": {
     "message": "शब्द"
@@ -1616,7 +1616,7 @@
   },
   "allSends": {
     "message": "सभी Sends",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "maxAccessCountReached": {
     "message": "मैक्स एक्सेस काउंट पहुंच गया है",
@@ -1633,7 +1633,7 @@
   },
   "copySendLink": {
     "message": "कॉपी Send लिंक",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "removePassword": {
     "message": "पासवर्ड हटाएं"
@@ -1646,11 +1646,11 @@
   },
   "deletedSend": {
     "message": " Send हटाए गए",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendLink": {
     "message": "Send लिंक",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "disabled": {
     "message": "अक्षम"
@@ -1660,23 +1660,23 @@
   },
   "deleteSend": {
     "message": " Send हटाए",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "deleteSendConfirmation": {
     "message": "क्या आप वाकई इस Send को मिटाना चाहते हैं?",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "editSend": {
     "message": "एडिट Send",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendTypeHeader": {
     "message": "यह किस प्रकार का सेंड है?",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendNameDesc": {
     "message": "इस सेंड का वर्णन करने के लिए एक दोस्ताना नाम।",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendFileDesc": {
     "message": "वह फाइल जो आप सेंड करना चाहते हैं।"
@@ -1686,14 +1686,14 @@
   },
   "deletionDateDesc": {
     "message": " यह सेंड निर्धारित तिथि और समय पर स्थायी रूप से हटा दिया जाएगा।",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "expirationDate": {
     "message": "समाप्ति तिथि"
   },
   "expirationDateDesc": {
     "message": "यदि सेट किया जाता है, तो  यह सेंड निर्दिष्ट तिथि और समय पर समाप्त हो जाएगा।",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "oneDay": {
     "message": "1 दिन"
@@ -1715,56 +1715,56 @@
   },
   "maximumAccessCountDesc": {
     "message": "यदि सेट किया जाता है, तो अधिकतम एक्सेस काउंट तक पहुंचने के बाद उपयोगकर्ता अब इस सेंड को एक्सेस नहीं कर पाएंगे।",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendPasswordDesc": {
     "message": "वैकल्पिक रूप से उपयोगकर्ताओं को इस सेंड तक पहुंचने के लिए पासवर्ड की आवश्यकता होगी।",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendNotesDesc": {
     "message": "इस सेंड के बारे में निजी नोट्स।",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendDisableDesc": {
     "message": "इस सेंड को अक्षम करें ताकि कोई भी इसे एक्सेस न कर सके।",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendShareDesc": {
     "message": "सेव पर क्लिपबोर्ड पर इस सेंड के लिंक को कॉपी करें।",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendTextDesc": {
     "message": "वह टेक्स्ट जो आप सेंड करना चाहते हैं।"
   },
   "sendHideText": {
     "message": "इस सेंड के टेक्स्ट को डिफ़ॉल्ट रूप से छिपाएं।",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "currentAccessCount": {
     "message": "वर्तमान एक्सेस काउंट"
   },
   "createSend": {
     "message": "नया सेंड बनाएं",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "newPassword": {
     "message": "नया पासवर्ड"
   },
   "sendDisabled": {
     "message": "सेंड अक्षम",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendDisabledWarning": {
     "message": "एक उद्यम नीति के कारण, आप केवल मौजूदा सेंड को हटाने में सक्षम हैं।",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "createdSend": {
     "message": "नया सेंड बनाया गया",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "editedSend": {
     "message": "सेंड एडिट किया गया",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendLinuxChromiumFileWarning": {
     "message": "फ़ाइल चुनने के लिए, साइडबार (यदि संभव हो) में एक्सटेंशन खोलें या इस बैनर पर क्लिक करके एक नई विंडो को पॉप आउट करें।"
@@ -2061,7 +2061,7 @@
     "message": "Log in with device"
   },
   "loginWithDeviceEnabledInfo": {
-    "message": "Log in with device must be set up in the settings of the Bitwarden app. Need another option?"
+    "message": "Log in with device must be set up in the settings of the PersonalWarden app. Need another option?"
   },
   "fingerprintPhraseHeader": {
     "message": "Fingerprint phrase"

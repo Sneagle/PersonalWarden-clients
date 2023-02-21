@@ -1,5 +1,5 @@
-import { TotpService as AbstractTotpService } from "@bitwarden/common/abstractions/totp.service";
-import { TotpService } from "@bitwarden/common/services/totp.service";
+import { TotpService as AbstractTotpService } from "@personalwarden/common/abstractions/totp.service";
+import { TotpService } from "@personalwarden/common/services/totp.service";
 
 import {
   CryptoFunctionServiceInitOptions,

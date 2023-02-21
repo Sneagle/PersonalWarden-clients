@@ -4,7 +4,7 @@ import {
   devFlagValue as baseDevFlagValue,
   SharedFlags,
   SharedDevFlags,
-} from "@bitwarden/common/misc/flags";
+} from "@personalwarden/common/misc/flags";
 
 import { GroupPolicyEnvironment } from "./types/group-policy-environment";
 

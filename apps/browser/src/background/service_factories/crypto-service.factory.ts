@@ -1,4 +1,4 @@
-import { CryptoService as AbstractCryptoService } from "@bitwarden/common/abstractions/crypto.service";
+import { CryptoService as AbstractCryptoService } from "@personalwarden/common/abstractions/crypto.service";
 
 import { BrowserCryptoService } from "../../services/browserCrypto.service";
 

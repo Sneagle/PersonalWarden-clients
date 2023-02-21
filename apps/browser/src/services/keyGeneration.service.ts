@@ -1,5 +1,5 @@
-import { CryptoFunctionService } from "@bitwarden/common/abstractions/cryptoFunction.service";
-import { SymmetricCryptoKey } from "@bitwarden/common/models/domain/symmetric-crypto-key";
+import { CryptoFunctionService } from "@personalwarden/common/abstractions/cryptoFunction.service";
+import { SymmetricCryptoKey } from "@personalwarden/common/models/domain/symmetric-crypto-key";
 
 import { AbstractKeyGenerationService } from "./abstractions/abstractKeyGeneration.service";
 
@@ -10,7 +10,7 @@ export class KeyGenerationService implements AbstractKeyGenerationService {
     const keyMaterial = await this.cryptoFunctionService.randomBytes(numBytes);
     const key = await this.cryptoFunctionService.hkdf(
       keyMaterial,
-      "bitwarden-ephemeral",
+      "personalwarden-ephemeral",
       "ephemeral",
       64,
       "sha256"

@@ -1,5 +1,5 @@
-import { AuthService as AbstractAuthService } from "@bitwarden/common/auth/abstractions/auth.service";
-import { AuthService } from "@bitwarden/common/auth/services/auth.service";
+import { AuthService as AbstractAuthService } from "@personalwarden/common/auth/abstractions/auth.service";
+import { AuthService } from "@personalwarden/common/auth/services/auth.service";
 
 import {
   apiServiceFactory,

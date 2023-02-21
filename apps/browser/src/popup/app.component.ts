@@ -12,11 +12,11 @@ import { IndividualConfig, ToastrService } from "ngx-toastr";
 import { Subject, takeUntil } from "rxjs";
 import Swal, { SweetAlertIcon } from "sweetalert2";
 
-import { BroadcasterService } from "@bitwarden/common/abstractions/broadcaster.service";
-import { I18nService } from "@bitwarden/common/abstractions/i18n.service";
-import { MessagingService } from "@bitwarden/common/abstractions/messaging.service";
-import { PlatformUtilsService } from "@bitwarden/common/abstractions/platformUtils.service";
-import { AuthService } from "@bitwarden/common/auth/abstractions/auth.service";
+import { BroadcasterService } from "@personalwarden/common/abstractions/broadcaster.service";
+import { I18nService } from "@personalwarden/common/abstractions/i18n.service";
+import { MessagingService } from "@personalwarden/common/abstractions/messaging.service";
+import { PlatformUtilsService } from "@personalwarden/common/abstractions/platformUtils.service";
+import { AuthService } from "@personalwarden/common/auth/abstractions/auth.service";
 
 import { BrowserApi } from "../browser/browserApi";
 import { BrowserStateService } from "../services/abstractions/browser-state.service";
@@ -68,7 +68,7 @@ export class AppComponent implements OnInit, OnDestroy {
       window.onkeypress = () => this.recordActivity();
     });
 
-    (window as any).bitwardenPopupMainMessageListener = async (
+    (window as any).personalwardenPopupMainMessageListener = async (
       msg: any,
       sender: any,
       sendResponse: any
@@ -130,7 +130,7 @@ export class AppComponent implements OnInit, OnDestroy {
       }
     };
 
-    BrowserApi.messageListener("app.component", (window as any).bitwardenPopupMainMessageListener);
+    BrowserApi.messageListener("app.component", (window as any).personalwardenPopupMainMessageListener);
 
     // eslint-disable-next-line rxjs/no-async-subscribe
     this.router.events.pipe(takeUntil(this.destroy$)).subscribe(async (event) => {

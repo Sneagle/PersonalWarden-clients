@@ -1,4 +1,4 @@
-import { PasswordGenerationService } from "@bitwarden/common/abstractions/passwordGeneration.service";
+import { PasswordGenerationService } from "@personalwarden/common/abstractions/passwordGeneration.service";
 
 import { setAlarmTime } from "../../alarms/alarm-state";
 import { BrowserStateService } from "../../services/abstractions/browser-state.service";

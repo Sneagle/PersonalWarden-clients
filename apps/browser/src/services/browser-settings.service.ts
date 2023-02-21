@@ -1,7 +1,7 @@
 import { BehaviorSubject } from "rxjs";
 
-import { AccountSettingsSettings } from "@bitwarden/common/models/domain/account";
-import { SettingsService } from "@bitwarden/common/services/settings.service";
+import { AccountSettingsSettings } from "@personalwarden/common/models/domain/account";
+import { SettingsService } from "@personalwarden/common/services/settings.service";
 
 import { sessionSync } from "../decorators/session-sync-observable";
 

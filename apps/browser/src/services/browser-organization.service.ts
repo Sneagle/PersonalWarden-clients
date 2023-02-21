@@ -1,7 +1,7 @@
 import { BehaviorSubject } from "rxjs";
 
-import { Organization } from "@bitwarden/common/models/domain/organization";
-import { OrganizationService } from "@bitwarden/common/services/organization/organization.service";
+import { Organization } from "@personalwarden/common/models/domain/organization";
+import { OrganizationService } from "@personalwarden/common/services/organization/organization.service";
 
 import { browserSession, sessionSync } from "../decorators/session-sync-observable";
 

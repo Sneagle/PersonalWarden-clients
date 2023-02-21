@@ -1,4 +1,4 @@
-﻿@-webkit-keyframes bitwardenfill {
+﻿@-webkit-keyframes personalwardenfill {
   0% {
     -webkit-transform: scale(1, 1);
   }
@@ -12,7 +12,7 @@
   }
 }
 
-@-moz-keyframes bitwardenfill {
+@-moz-keyframes personalwardenfill {
   0% {
     transform: scale(1, 1);
   }
@@ -26,11 +26,11 @@
   }
 }
 
-span[data-bwautofill].com-bitwarden-browser-animated-fill {
+span[data-bwautofill].com-personalwarden-browser-animated-fill {
   display: inline-block;
 }
 
-.com-bitwarden-browser-animated-fill {
-  animation: bitwardenfill 200ms ease-in-out 0ms 1;
-  -webkit-animation: bitwardenfill 200ms ease-in-out 0ms 1;
+.com-personalwarden-browser-animated-fill {
+  animation: personalwardenfill 200ms ease-in-out 0ms 1;
+  -webkit-animation: personalwardenfill 200ms ease-in-out 0ms 1;
 }

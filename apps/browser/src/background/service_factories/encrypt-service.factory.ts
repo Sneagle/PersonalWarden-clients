@@ -1,4 +1,4 @@
-import { EncryptServiceImplementation } from "@bitwarden/common/services/cryptography/encrypt.service.implementation";
+import { EncryptServiceImplementation } from "@personalwarden/common/services/cryptography/encrypt.service.implementation";
 
 import {
   cryptoFunctionServiceFactory,

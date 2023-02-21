@@ -1,7 +1,7 @@
 import { BehaviorSubject } from "rxjs";
 
-import { AbstractMemoryStorageService } from "@bitwarden/common/abstractions/storage.service";
-import { MemoryStorageService } from "@bitwarden/common/services/memoryStorage.service";
+import { AbstractMemoryStorageService } from "@personalwarden/common/abstractions/storage.service";
+import { MemoryStorageService } from "@personalwarden/common/services/memoryStorage.service";
 
 import { BrowserStateService } from "../../services/browser-state.service";
 

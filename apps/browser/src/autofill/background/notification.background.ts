@@ -1,17 +1,17 @@
 import { firstValueFrom } from "rxjs";
 
-import { PolicyService } from "@bitwarden/common/abstractions/policy/policy.service.abstraction";
-import { AuthService } from "@bitwarden/common/auth/abstractions/auth.service";
-import { AuthenticationStatus } from "@bitwarden/common/auth/enums/authentication-status";
-import { PolicyType } from "@bitwarden/common/enums/policyType";
-import { ThemeType } from "@bitwarden/common/enums/themeType";
-import { Utils } from "@bitwarden/common/misc/utils";
-import { CipherService } from "@bitwarden/common/vault/abstractions/cipher.service";
-import { FolderService } from "@bitwarden/common/vault/abstractions/folder/folder.service.abstraction";
-import { CipherType } from "@bitwarden/common/vault/enums/cipher-type";
-import { CipherView } from "@bitwarden/common/vault/models/view/cipher.view";
-import { LoginUriView } from "@bitwarden/common/vault/models/view/login-uri.view";
-import { LoginView } from "@bitwarden/common/vault/models/view/login.view";
+import { PolicyService } from "@personalwarden/common/abstractions/policy/policy.service.abstraction";
+import { AuthService } from "@personalwarden/common/auth/abstractions/auth.service";
+import { AuthenticationStatus } from "@personalwarden/common/auth/enums/authentication-status";
+import { PolicyType } from "@personalwarden/common/enums/policyType";
+import { ThemeType } from "@personalwarden/common/enums/themeType";
+import { Utils } from "@personalwarden/common/misc/utils";
+import { CipherService } from "@personalwarden/common/vault/abstractions/cipher.service";
+import { FolderService } from "@personalwarden/common/vault/abstractions/folder/folder.service.abstraction";
+import { CipherType } from "@personalwarden/common/vault/enums/cipher-type";
+import { CipherView } from "@personalwarden/common/vault/models/view/cipher.view";
+import { LoginUriView } from "@personalwarden/common/vault/models/view/login-uri.view";
+import { LoginView } from "@personalwarden/common/vault/models/view/login.view";
 
 import AddChangePasswordQueueMessage from "../../background/models/addChangePasswordQueueMessage";
 import AddLoginQueueMessage from "../../background/models/addLoginQueueMessage";

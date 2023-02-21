@@ -1,7 +1,7 @@
-import { I18nService } from "@bitwarden/common/abstractions/i18n.service";
-import { ConsoleLogService } from "@bitwarden/common/services/consoleLog.service";
-import { SearchService } from "@bitwarden/common/services/search.service";
-import { CipherService } from "@bitwarden/common/vault/abstractions/cipher.service";
+import { I18nService } from "@personalwarden/common/abstractions/i18n.service";
+import { ConsoleLogService } from "@personalwarden/common/services/consoleLog.service";
+import { SearchService } from "@personalwarden/common/services/search.service";
+import { CipherService } from "@personalwarden/common/vault/abstractions/cipher.service";
 
 export class PopupSearchService extends SearchService {
   constructor(

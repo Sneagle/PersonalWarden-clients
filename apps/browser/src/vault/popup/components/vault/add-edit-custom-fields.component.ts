@@ -1,8 +1,8 @@
 import { Component } from "@angular/core";
 
-import { AddEditCustomFieldsComponent as BaseAddEditCustomFieldsComponent } from "@bitwarden/angular/vault/components/add-edit-custom-fields.component";
-import { EventCollectionService } from "@bitwarden/common/abstractions/event/event-collection.service";
-import { I18nService } from "@bitwarden/common/abstractions/i18n.service";
+import { AddEditCustomFieldsComponent as BaseAddEditCustomFieldsComponent } from "@personalwarden/angular/vault/components/add-edit-custom-fields.component";
+import { EventCollectionService } from "@personalwarden/common/abstractions/event/event-collection.service";
+import { I18nService } from "@personalwarden/common/abstractions/i18n.service";
 
 @Component({
   selector: "app-vault-add-edit-custom-fields",

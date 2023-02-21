@@ -1,13 +1,13 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "PersonalWarden"
   },
   "extName": {
-    "message": "Bitwarden - Pengelola Sandi Gratis",
+    "message": "PersonalWarden - Pengelola Sandi Gratis",
     "description": "Extension name, MUST be less than 40 characters (Safari restriction)"
   },
   "extDesc": {
-    "message": "Bitwarden adalah sebuah pengelola sandi yang aman dan gratis untuk semua perangkat Anda.",
+    "message": "PersonalWarden adalah sebuah pengelola sandi yang aman dan gratis untuk semua perangkat Anda.",
     "description": "Extension description"
   },
   "loginOrCreateNewAccount": {
@@ -215,7 +215,7 @@
     "message": "Secara otomatis membuat sandi yang kuat dan unik untuk info masuk Anda."
   },
   "bitWebVault": {
-    "message": "Brankas Web Bitwarden"
+    "message": "Brankas Web PersonalWarden"
   },
   "importItems": {
     "message": "Impor Item"
@@ -356,7 +356,7 @@
       },
       "hostname": {
         "content": "$2",
-        "example": "bitwarden.com"
+        "example": "personalwarden.com"
       }
     }
   },
@@ -495,10 +495,10 @@
     "message": "Ubah Kata Sandi Utama"
   },
   "changeMasterPasswordConfirmation": {
-    "message": "Anda dapat mengubah kata sandi utama Anda di brankas web bitwarden.com. Anda ingin mengunjungi situs web sekarang?"
+    "message": "Anda dapat mengubah kata sandi utama Anda di brankas web personalwarden.com. Anda ingin mengunjungi situs web sekarang?"
   },
   "twoStepLoginConfirmation": {
-    "message": "Info masuk dua langkah membuat akun Anda lebih aman dengan mengharuskan Anda memverifikasi info masuk Anda dengan peranti lain seperti kode keamanan, aplikasi autentikasi, SMK, panggilan telepon, atau email. Info masuk dua langkah dapat diaktifkan di brankas web bitwarden.com. Anda ingin mengunjungi situs web sekarang?"
+    "message": "Info masuk dua langkah membuat akun Anda lebih aman dengan mengharuskan Anda memverifikasi info masuk Anda dengan peranti lain seperti kode keamanan, aplikasi autentikasi, SMK, panggilan telepon, atau email. Info masuk dua langkah dapat diaktifkan di brankas web personalwarden.com. Anda ingin mengunjungi situs web sekarang?"
   },
   "editedFolder": {
     "message": "Folder yang disunting"
@@ -604,7 +604,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Haruskah Bitwarden mengingat sandi ini untuk Anda?"
+    "message": "Haruskah PersonalWarden mengingat sandi ini untuk Anda?"
   },
   "notificationAddSave": {
     "message": "Iya, Simpan Sekarang"
@@ -616,7 +616,7 @@
     "message": "Ask to update a login's password when a change is detected on a website."
   },
   "notificationChangeDesc": {
-    "message": "Apakah Anda ingin memperbarui kata sandi ini di Bitwarden?"
+    "message": "Apakah Anda ingin memperbarui kata sandi ini di PersonalWarden?"
   },
   "notificationChangeSave": {
     "message": "Iya, Perbarui Sekarang"
@@ -672,7 +672,7 @@
     "message": "Ekspor ini mengenkripsi data Anda menggunakan kunci enkripsi akun Anda. Jika Anda pernah merotasi kunci enkripsi akun Anda, Anda harus mengekspor lagi karena Anda tidak akan dapat mendekripsi file ekspor ini."
   },
   "encExportAccountWarningDesc": {
-    "message": "Kunci enkripsi akun unik untuk setiap akun pengguna Bitwarden, jadi Anda tidak dapat mengimpor ekspor terenkripsi ke akun lain."
+    "message": "Kunci enkripsi akun unik untuk setiap akun pengguna PersonalWarden, jadi Anda tidak dapat mengimpor ekspor terenkripsi ke akun lain."
   },
   "exportMasterPassword": {
     "message": "Masukkan sandi utama Anda untuk mengekspor data brankas Anda."
@@ -684,7 +684,7 @@
     "message": "Pelajari tentang Organisasi"
   },
   "learnOrgConfirmation": {
-    "message": "Bitwarden memungkinkan Anda berbagi item brankas Anda dengan orang lain menggunakan organisasi. Maukah Anda mengunjungi laman bitwarden.com untuk mempelajari lebih lanjut?"
+    "message": "PersonalWarden memungkinkan Anda berbagi item brankas Anda dengan orang lain menggunakan organisasi. Maukah Anda mengunjungi laman personalwarden.com untuk mempelajari lebih lanjut?"
   },
   "moveToOrganization": {
     "message": "Pindah ke Organisasi"
@@ -763,7 +763,7 @@
     "message": "Kelola Keanggotaan"
   },
   "premiumManageAlert": {
-    "message": "Anda dapat mengelola keanggotaan Anda di brankas web bitwarden.com. Anda ingin mengunjungi situs web sekarang?"
+    "message": "Anda dapat mengelola keanggotaan Anda di brankas web personalwarden.com. Anda ingin mengunjungi situs web sekarang?"
   },
   "premiumRefresh": {
     "message": "Segarkan Keanggotaan"
@@ -796,13 +796,13 @@
     "message": "Beli Keanggotaan Premium"
   },
   "premiumPurchaseAlert": {
-    "message": "Anda dapat membeli keanggotaan premium di brankas web bitwarden.com. Anda ingin mengunjungi situs web sekarang?"
+    "message": "Anda dapat membeli keanggotaan premium di brankas web personalwarden.com. Anda ingin mengunjungi situs web sekarang?"
   },
   "premiumCurrentMember": {
     "message": "Anda adalah anggota premium!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Terima kasih telah mendukung Bitwarden."
+    "message": "Terima kasih telah mendukung PersonalWarden."
   },
   "premiumPrice": {
     "message": "Semua itu hanya $PRICE$ /tahun!",
@@ -931,7 +931,7 @@
     "message": "Lingkungan Penyedia Personal"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Tetapkan URL dasar penyedia personal pemasangan Bitwarden Anda."
+    "message": "Tetapkan URL dasar penyedia personal pemasangan PersonalWarden Anda."
   },
   "customEnvironment": {
     "message": "Lingkungan Khusus"
@@ -1363,7 +1363,7 @@
     "message": "Kata Sandi Utama Lemah"
   },
   "weakMasterPasswordDesc": {
-    "message": "Kata sandi utama yang Anda pilih itu lemah. Anda harus menggunakan kata sandi yang kuat (atau frasa sandi) untuk melindungi akun Bitwarden Anda. Apakah Anda yakin ingin menggunakan kata sandi ini?"
+    "message": "Kata sandi utama yang Anda pilih itu lemah. Anda harus menggunakan kata sandi yang kuat (atau frasa sandi) untuk melindungi akun PersonalWarden Anda. Apakah Anda yakin ingin menggunakan kata sandi ini?"
   },
   "pin": {
     "message": "PIN",
@@ -1373,7 +1373,7 @@
     "message": "Buka kunci dengan PIN"
   },
   "setYourPinCode": {
-    "message": "Setel kode PIN Anda untuk membuka kunci Bitwarden. Pengaturan PIN Anda akan diatur ulang jika Anda pernah keluar sepenuhnya dari aplikasi."
+    "message": "Setel kode PIN Anda untuk membuka kunci PersonalWarden. Pengaturan PIN Anda akan diatur ulang jika Anda pernah keluar sepenuhnya dari aplikasi."
   },
   "pinRequired": {
     "message": "Membutuhkan kode PIN."
@@ -1388,7 +1388,7 @@
     "message": "Menunggu konfirmasi dari desktop"
   },
   "awaitDesktopDesc": {
-    "message": "Silakan konfirmasi menggunakan biometrik di aplikasi Bitwarden Desktop untuk mengaktifkan biometrik untuk peramban."
+    "message": "Silakan konfirmasi menggunakan biometrik di aplikasi PersonalWarden Desktop untuk mengaktifkan biometrik untuk peramban."
   },
   "lockWithMasterPassOnRestart": {
     "message": "Kunci dengan kata sandi utama saat peramban dimulai ulang"
@@ -1525,13 +1525,13 @@
     "message": "Integrasi peramban tidak diaktifkan"
   },
   "desktopIntegrationDisabledDesc": {
-    "message": "Integrasi peramban tidak diaktifkan di aplikasi Desktop Bitwarden. Silakan aktifkan di pengaturan di dalam aplikasi desktop."
+    "message": "Integrasi peramban tidak diaktifkan di aplikasi Desktop PersonalWarden. Silakan aktifkan di pengaturan di dalam aplikasi desktop."
   },
   "startDesktopTitle": {
-    "message": "Jalankan aplikasi Desktop Bitwarden"
+    "message": "Jalankan aplikasi Desktop PersonalWarden"
   },
   "startDesktopDesc": {
-    "message": "Aplikasi Desktop Bitwarden harus dijalankan sebelum fungsi ini bisa digunakan."
+    "message": "Aplikasi Desktop PersonalWarden harus dijalankan sebelum fungsi ini bisa digunakan."
   },
   "errorEnableBiometricTitle": {
     "message": "Tidak bisa mengaktifkan biometrik"
@@ -1567,7 +1567,7 @@
     "message": "Izin tidak diberikan"
   },
   "nativeMessaginPermissionErrorDesc": {
-    "message": "Tanpa adanya izin untuk berkomunikasi dengan Aplikasi Desktop Bitwarden kami tidak bisa menyediakan fitur biometrik di dalam ekstensi peramban. Silakan coba lagi."
+    "message": "Tanpa adanya izin untuk berkomunikasi dengan Aplikasi Desktop PersonalWarden kami tidak bisa menyediakan fitur biometrik di dalam ekstensi peramban. Silakan coba lagi."
   },
   "nativeMessaginPermissionSidebarTitle": {
     "message": "Kesalahan permintaan izin"
@@ -1585,7 +1585,7 @@
     "message": "Domain yang Dikecualikan"
   },
   "excludedDomainsDesc": {
-    "message": "Bitwarden tidak akan meminta untuk menyimpan detail login untuk domain ini. Anda harus menyegarkan halaman agar perubahan diterapkan."
+    "message": "PersonalWarden tidak akan meminta untuk menyimpan detail login untuk domain ini. Anda harus menyegarkan halaman agar perubahan diterapkan."
   },
   "excludedDomainsInvalidDomain": {
     "message": "$DOMAIN$ bukan domain yang valid",
@@ -1598,15 +1598,15 @@
   },
   "send": {
     "message": "Send",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "searchSends": {
     "message": "Pencarian Send",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "addSend": {
     "message": "Tambahkan Send",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendTypeText": {
     "message": "Teks"
@@ -1616,7 +1616,7 @@
   },
   "allSends": {
     "message": "Semua Sends",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "maxAccessCountReached": {
     "message": "Jumlah akses maksimum tercapai",
@@ -1633,7 +1633,7 @@
   },
   "copySendLink": {
     "message": "Salin tautan Send",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "removePassword": {
     "message": "Hapus Kata Sandi"
@@ -1646,11 +1646,11 @@
   },
   "deletedSend": {
     "message": "Send Dihapus",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendLink": {
     "message": "Tautan Send",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "disabled": {
     "message": "Dinonaktifkan"
@@ -1660,23 +1660,23 @@
   },
   "deleteSend": {
     "message": "Hapus Send",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "deleteSendConfirmation": {
     "message": "Anda yakin ingin menghapus Send ini?",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "editSend": {
     "message": "Edit Send",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendTypeHeader": {
     "message": "Jenis Send apakah ini?",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendNameDesc": {
     "message": "Nama yang bersahabat untuk menggambarkan Send ini.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendFileDesc": {
     "message": "File yang ingin Anda kirim."
@@ -1686,14 +1686,14 @@
   },
   "deletionDateDesc": {
     "message": "Send akan dihapus secara permanen pada tanggal dan waktu yang ditentukan.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "expirationDate": {
     "message": "Tanggal habis tempo"
   },
   "expirationDateDesc": {
     "message": "Jika disetel, akses ke Send ini akan berakhir pada tanggal dan waktu yang ditentukan.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "oneDay": {
     "message": "1 hari"
@@ -1715,56 +1715,56 @@
   },
   "maximumAccessCountDesc": {
     "message": "Jika disetel, pengguna tidak dapat lagi mengakses Send ini setelah jumlah akses maksimum tercapai.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendPasswordDesc": {
     "message": "Secara opsional, minta kata sandi bagi pengguna untuk mengakses Send ini.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendNotesDesc": {
     "message": "Catatan pribadi tentang Send ini.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendDisableDesc": {
     "message": "Nonaktifkan Send ini sehingga tidak ada yang dapat mengaksesnya.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendShareDesc": {
     "message": "Salin tautan Send ini ke papan klip setelah disimpan.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendTextDesc": {
     "message": "Teks yang ingin Anda kirim."
   },
   "sendHideText": {
     "message": "Sembunyikan teks Send ini secara default.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "currentAccessCount": {
     "message": "Hitungan Akses Saat Ini"
   },
   "createSend": {
     "message": "Buat Send Baru",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "newPassword": {
     "message": "Kata Sandi baru"
   },
   "sendDisabled": {
     "message": "Send Dinonaktifkan",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendDisabledWarning": {
     "message": "Karena kebijakan perusahaan, Anda hanya dapat menghapus Send yang sudah ada.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "createdSend": {
     "message": "Send Dibuat ",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "editedSend": {
     "message": "Send diedit",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendLinuxChromiumFileWarning": {
     "message": "Untuk memilih file ini, buka Extension di sidebar (jika memungkinkan) atau keluarkan menjadi window baru dengan menekan gambar ini."
@@ -2061,7 +2061,7 @@
     "message": "Log in with device"
   },
   "loginWithDeviceEnabledInfo": {
-    "message": "Log in with device must be set up in the settings of the Bitwarden app. Need another option?"
+    "message": "Log in with device must be set up in the settings of the PersonalWarden app. Need another option?"
   },
   "fingerprintPhraseHeader": {
     "message": "Fingerprint phrase"

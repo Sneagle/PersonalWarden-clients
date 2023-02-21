@@ -1,12 +1,12 @@
 import { Component } from "@angular/core";
 import { ActivatedRoute, Router } from "@angular/router";
 
-import { HintComponent as BaseHintComponent } from "@bitwarden/angular/auth/components/hint.component";
-import { ApiService } from "@bitwarden/common/abstractions/api.service";
-import { I18nService } from "@bitwarden/common/abstractions/i18n.service";
-import { LogService } from "@bitwarden/common/abstractions/log.service";
-import { PlatformUtilsService } from "@bitwarden/common/abstractions/platformUtils.service";
-import { LoginService } from "@bitwarden/common/auth/abstractions/login.service";
+import { HintComponent as BaseHintComponent } from "@personalwarden/angular/auth/components/hint.component";
+import { ApiService } from "@personalwarden/common/abstractions/api.service";
+import { I18nService } from "@personalwarden/common/abstractions/i18n.service";
+import { LogService } from "@personalwarden/common/abstractions/log.service";
+import { PlatformUtilsService } from "@personalwarden/common/abstractions/platformUtils.service";
+import { LoginService } from "@personalwarden/common/auth/abstractions/login.service";
 
 @Component({
   selector: "app-hint",

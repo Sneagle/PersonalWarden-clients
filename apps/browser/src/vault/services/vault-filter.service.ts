@@ -1,12 +1,12 @@
-import { VaultFilter } from "@bitwarden/angular/vault/vault-filter/models/vault-filter.model";
-import { VaultFilterService as BaseVaultFilterService } from "@bitwarden/angular/vault/vault-filter/services/vault-filter.service";
-import { CollectionService } from "@bitwarden/common/abstractions/collection.service";
-import { OrganizationService } from "@bitwarden/common/abstractions/organization/organization.service.abstraction";
-import { PolicyService } from "@bitwarden/common/abstractions/policy/policy.service.abstraction";
-import { StateService } from "@bitwarden/common/abstractions/state.service";
-import { CipherService } from "@bitwarden/common/vault/abstractions/cipher.service";
-import { FolderService } from "@bitwarden/common/vault/abstractions/folder/folder.service.abstraction";
-import { CipherView } from "@bitwarden/common/vault/models/view/cipher.view";
+import { VaultFilter } from "@personalwarden/angular/vault/vault-filter/models/vault-filter.model";
+import { VaultFilterService as BaseVaultFilterService } from "@personalwarden/angular/vault/vault-filter/services/vault-filter.service";
+import { CollectionService } from "@personalwarden/common/abstractions/collection.service";
+import { OrganizationService } from "@personalwarden/common/abstractions/organization/organization.service.abstraction";
+import { PolicyService } from "@personalwarden/common/abstractions/policy/policy.service.abstraction";
+import { StateService } from "@personalwarden/common/abstractions/state.service";
+import { CipherService } from "@personalwarden/common/vault/abstractions/cipher.service";
+import { FolderService } from "@personalwarden/common/vault/abstractions/folder/folder.service.abstraction";
+import { CipherView } from "@personalwarden/common/vault/models/view/cipher.view";
 
 export class VaultFilterService extends BaseVaultFilterService {
   vaultFilter: VaultFilter = new VaultFilter();

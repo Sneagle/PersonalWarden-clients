@@ -1,12 +1,12 @@
 import { Component, OnInit } from "@angular/core";
 
-import { AbstractThemingService } from "@bitwarden/angular/services/theming/theming.service.abstraction";
-import { I18nService } from "@bitwarden/common/abstractions/i18n.service";
-import { MessagingService } from "@bitwarden/common/abstractions/messaging.service";
-import { StateService } from "@bitwarden/common/abstractions/state.service";
-import { TotpService } from "@bitwarden/common/abstractions/totp.service";
-import { ThemeType } from "@bitwarden/common/enums/themeType";
-import { UriMatchType } from "@bitwarden/common/enums/uriMatchType";
+import { AbstractThemingService } from "@personalwarden/angular/services/theming/theming.service.abstraction";
+import { I18nService } from "@personalwarden/common/abstractions/i18n.service";
+import { MessagingService } from "@personalwarden/common/abstractions/messaging.service";
+import { StateService } from "@personalwarden/common/abstractions/state.service";
+import { TotpService } from "@personalwarden/common/abstractions/totp.service";
+import { ThemeType } from "@personalwarden/common/enums/themeType";
+import { UriMatchType } from "@personalwarden/common/enums/uriMatchType";
 
 @Component({
   selector: "app-options",

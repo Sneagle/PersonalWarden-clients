@@ -1,13 +1,13 @@
 {
   "appName": {
-    "message": "bitwarden"
+    "message": "personalwarden"
   },
   "extName": {
-    "message": "bitwarden - Free Password Manager",
+    "message": "personalwarden - Free Password Manager",
     "description": "Extension name, MUST be less than 40 characters (Safari restriction)"
   },
   "extDesc": {
-    "message": "bitwarden is a secure and free password manager for all of your devices.",
+    "message": "personalwarden is a secure and free password manager for all of your devices.",
     "description": "Extension description"
   },
   "loginOrCreateNewAccount": {
@@ -215,7 +215,7 @@
     "message": "สร้างรหัสผ่านที่รัดกุมและไม่ซ้ำใครโดยอัตโนมัติสำหรับการเข้าสู่ระบบของคุณ"
   },
   "bitWebVault": {
-    "message": "bitwarden Web Vault"
+    "message": "personalwarden Web Vault"
   },
   "importItems": {
     "message": "Import Items"
@@ -356,7 +356,7 @@
       },
       "hostname": {
         "content": "$2",
-        "example": "bitwarden.com"
+        "example": "personalwarden.com"
       }
     }
   },
@@ -495,10 +495,10 @@
     "message": "Change Master Password"
   },
   "changeMasterPasswordConfirmation": {
-    "message": "คุณสามารถเปลี่ยนรหัสผ่านหลักได้ที่เว็บตู้เซฟ bitwarden.com คุณต้องการเปิดเว็บไซต์เลยหรือไม่?"
+    "message": "คุณสามารถเปลี่ยนรหัสผ่านหลักได้ที่เว็บตู้เซฟ personalwarden.com คุณต้องการเปิดเว็บไซต์เลยหรือไม่?"
   },
   "twoStepLoginConfirmation": {
-    "message": "Two-step login makes your account more secure by requiring you to enter a security code from an authenticator app whenever you log in. Two-step login can be enabled on the bitwarden.com web vault. Do you want to visit the website now?"
+    "message": "Two-step login makes your account more secure by requiring you to enter a security code from an authenticator app whenever you log in. Two-step login can be enabled on the personalwarden.com web vault. Do you want to visit the website now?"
   },
   "editedFolder": {
     "message": "Edited Folder"
@@ -604,7 +604,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Should bitwarden remember this password for you?"
+    "message": "Should personalwarden remember this password for you?"
   },
   "notificationAddSave": {
     "message": "Yes, Save Now"
@@ -616,7 +616,7 @@
     "message": "Ask to update a login's password when a change is detected on a website."
   },
   "notificationChangeDesc": {
-    "message": "คุณต้องการอัปเดตรหัสผ่านนี้ใน Bitwarden หรือไม่?"
+    "message": "คุณต้องการอัปเดตรหัสผ่านนี้ใน PersonalWarden หรือไม่?"
   },
   "notificationChangeSave": {
     "message": "Yes, Update Now"
@@ -672,7 +672,7 @@
     "message": "การส่งออกนี้เข้ารหัสข้อมูลของคุณโดยใช้คีย์เข้ารหัสของบัญชีของคุณ หากคุณเคยหมุนเวียนคีย์เข้ารหัสของบัญชี คุณควรส่งออกอีกครั้ง เนื่องจากคุณจะไม่สามารถถอดรหัสไฟล์ส่งออกนี้ได้"
   },
   "encExportAccountWarningDesc": {
-    "message": "คีย์การเข้ารหัสบัญชีจะไม่ซ้ำกันสำหรับบัญชีผู้ใช้ Bitwarden แต่ละบัญชี ดังนั้นคุณจึงไม่สามารถนำเข้าการส่งออกที่เข้ารหัสไปยังบัญชีอื่นได้"
+    "message": "คีย์การเข้ารหัสบัญชีจะไม่ซ้ำกันสำหรับบัญชีผู้ใช้ PersonalWarden แต่ละบัญชี ดังนั้นคุณจึงไม่สามารถนำเข้าการส่งออกที่เข้ารหัสไปยังบัญชีอื่นได้"
   },
   "exportMasterPassword": {
     "message": "ป้อนรหัสผ่านหลักของคุณเพื่อส่งออกข้อมูลตู้นิรภัยของคุณ"
@@ -684,7 +684,7 @@
     "message": "เรียนรู้เกี่ยวกับองค์กร"
   },
   "learnOrgConfirmation": {
-    "message": "Bitwarden อนุญาตให้คุณแชร์รายการตู้นิรภัยของคุณกับผู้อื่นโดยใช้องค์กร คุณต้องการเยี่ยมชมเว็บไซต์ bitwarden.com เพื่อเรียนรู้เพิ่มเติมหรือไม่?"
+    "message": "PersonalWarden อนุญาตให้คุณแชร์รายการตู้นิรภัยของคุณกับผู้อื่นโดยใช้องค์กร คุณต้องการเยี่ยมชมเว็บไซต์ personalwarden.com เพื่อเรียนรู้เพิ่มเติมหรือไม่?"
   },
   "moveToOrganization": {
     "message": "ย้ายไปยังแบบองค์กร"
@@ -763,7 +763,7 @@
     "message": "Manage Membership"
   },
   "premiumManageAlert": {
-    "message": "คุณสามารถจัดการการเป็นสมาชิกของคุณได้ที่ bitwarden.com web vault คุณต้องการเข้าชมเว็บไซต์ตอนนี้หรือไม่?"
+    "message": "คุณสามารถจัดการการเป็นสมาชิกของคุณได้ที่ personalwarden.com web vault คุณต้องการเข้าชมเว็บไซต์ตอนนี้หรือไม่?"
   },
   "premiumRefresh": {
     "message": "Refresh Membership"
@@ -796,13 +796,13 @@
     "message": "Purchase Premium"
   },
   "premiumPurchaseAlert": {
-    "message": "You can purchase Premium membership on the bitwarden.com web vault. Do you want to visit the website now?"
+    "message": "You can purchase Premium membership on the personalwarden.com web vault. Do you want to visit the website now?"
   },
   "premiumCurrentMember": {
     "message": "You are a Premium member!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Thank you for supporting bitwarden."
+    "message": "Thank you for supporting personalwarden."
   },
   "premiumPrice": {
     "message": "All for just $PRICE$ /year!",
@@ -931,7 +931,7 @@
     "message": "Self-hosted Environment"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Specify the base URL of your on-premise hosted bitwarden installation."
+    "message": "Specify the base URL of your on-premise hosted personalwarden installation."
   },
   "customEnvironment": {
     "message": "Custom Environment"
@@ -1363,7 +1363,7 @@
     "message": "Weak Master Password"
   },
   "weakMasterPasswordDesc": {
-    "message": "รหัสผ่านหลักที่คุณเลือกนั้นไม่รัดกุม คุณควรใช้รหัสผ่านหลักที่รัดกุม (หรือวลีรหัสผ่าน) เพื่อปกป้องบัญชี Bitwarden ของคุณอย่างเหมาะสม คุณแน่ใจหรือไม่ว่าต้องการใช้รหัสผ่านหลักนี้"
+    "message": "รหัสผ่านหลักที่คุณเลือกนั้นไม่รัดกุม คุณควรใช้รหัสผ่านหลักที่รัดกุม (หรือวลีรหัสผ่าน) เพื่อปกป้องบัญชี PersonalWarden ของคุณอย่างเหมาะสม คุณแน่ใจหรือไม่ว่าต้องการใช้รหัสผ่านหลักนี้"
   },
   "pin": {
     "message": "PIN",
@@ -1373,7 +1373,7 @@
     "message": "ปลดล็อกด้วย PIN"
   },
   "setYourPinCode": {
-    "message": "ตั้ง PIN เพื่อใช้ปลดล็อก Bitwarden ทั้งนี้ หากคุณล็อกเอาต์ออกจากแอปโดยสมบูรณ์จะเป็นการลบการตั้งค่า PIN ของคุณด้วย"
+    "message": "ตั้ง PIN เพื่อใช้ปลดล็อก PersonalWarden ทั้งนี้ หากคุณล็อกเอาต์ออกจากแอปโดยสมบูรณ์จะเป็นการลบการตั้งค่า PIN ของคุณด้วย"
   },
   "pinRequired": {
     "message": "ต้องระบุ PIN"
@@ -1388,7 +1388,7 @@
     "message": "Awaiting confirmation from desktop"
   },
   "awaitDesktopDesc": {
-    "message": "โปรดยืนยันการใช้ไบโอเมตริกในแอปพลิเคชันเดสก์ท็อป Bitwarden เพื่อตั้งค่าไบโอเมตริกสำหรับเบราว์เซอร์"
+    "message": "โปรดยืนยันการใช้ไบโอเมตริกในแอปพลิเคชันเดสก์ท็อป PersonalWarden เพื่อตั้งค่าไบโอเมตริกสำหรับเบราว์เซอร์"
   },
   "lockWithMasterPassOnRestart": {
     "message": "ล็อคด้วยรหัสผ่านหลักเมื่อรีสตาร์ทเบราว์เซอร์"
@@ -1525,13 +1525,13 @@
     "message": "Browser integration is not set up"
   },
   "desktopIntegrationDisabledDesc": {
-    "message": "Browser integration is not set up in the Bitwarden desktop application. Please set it up in the settings within the desktop application."
+    "message": "Browser integration is not set up in the PersonalWarden desktop application. Please set it up in the settings within the desktop application."
   },
   "startDesktopTitle": {
-    "message": "Start the Bitwarden desktop application"
+    "message": "Start the PersonalWarden desktop application"
   },
   "startDesktopDesc": {
-    "message": "The Bitwarden desktop application needs to be started before unlock with biometrics can be used."
+    "message": "The PersonalWarden desktop application needs to be started before unlock with biometrics can be used."
   },
   "errorEnableBiometricTitle": {
     "message": "Unable to set up biometrics"
@@ -1567,7 +1567,7 @@
     "message": "Permission not provided"
   },
   "nativeMessaginPermissionErrorDesc": {
-    "message": "Without permission to communicate with the Bitwarden Desktop Application we cannot provide biometrics in the browser extension. Please try again."
+    "message": "Without permission to communicate with the PersonalWarden Desktop Application we cannot provide biometrics in the browser extension. Please try again."
   },
   "nativeMessaginPermissionSidebarTitle": {
     "message": "Permission request error"
@@ -1585,7 +1585,7 @@
     "message": "Excluded domains"
   },
   "excludedDomainsDesc": {
-    "message": "Bitwarden will not ask to save login details for these domains. You must refresh the page for changes to take effect."
+    "message": "PersonalWarden will not ask to save login details for these domains. You must refresh the page for changes to take effect."
   },
   "excludedDomainsInvalidDomain": {
     "message": "$DOMAIN$ is not a valid domain",
@@ -1598,15 +1598,15 @@
   },
   "send": {
     "message": "Send",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "searchSends": {
     "message": "ค้นหาใน Send",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "addSend": {
     "message": "เพิ่ม Send",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendTypeText": {
     "message": "ข้อความ"
@@ -1616,7 +1616,7 @@
   },
   "allSends": {
     "message": "Send ทั้งหมด",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "maxAccessCountReached": {
     "message": "Max access count reached",
@@ -1633,7 +1633,7 @@
   },
   "copySendLink": {
     "message": "Copy Send link",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "removePassword": {
     "message": "ลบรหัสผ่าน"
@@ -1646,11 +1646,11 @@
   },
   "deletedSend": {
     "message": "Send ถูกลบแล้ว",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendLink": {
     "message": "ลิงก์ Send",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "disabled": {
     "message": "Disabled"
@@ -1660,23 +1660,23 @@
   },
   "deleteSend": {
     "message": "ลบ Send",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "deleteSendConfirmation": {
     "message": "คุณต้องการลบ Send นี้ใช่หรือไม่?",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "editSend": {
     "message": "แก้ไข Send",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendTypeHeader": {
     "message": "What type of Send is this?",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendNameDesc": {
     "message": "A friendly name to describe this Send.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendFileDesc": {
     "message": "The file you want to send."
@@ -1686,14 +1686,14 @@
   },
   "deletionDateDesc": {
     "message": "The Send will be permanently deleted on the specified date and time.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "expirationDate": {
     "message": "Expiration date"
   },
   "expirationDateDesc": {
     "message": "If set, access to this Send will expire on the specified date and time.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "oneDay": {
     "message": "1 วัน"
@@ -1715,56 +1715,56 @@
   },
   "maximumAccessCountDesc": {
     "message": "If set, users will no longer be able to access this Send once the maximum access count is reached.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendPasswordDesc": {
     "message": "Optionally require a password for users to access this Send.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendNotesDesc": {
     "message": "Private notes about this Send.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendDisableDesc": {
     "message": "Deactivate this Send so that no one can access it.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendShareDesc": {
     "message": "Copy this Send's link to clipboard upon save.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendTextDesc": {
     "message": "ข้อความที่คุณต้องการส่ง"
   },
   "sendHideText": {
     "message": "Hide this Send's text by default.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "currentAccessCount": {
     "message": "Current access count"
   },
   "createSend": {
     "message": "New Send",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "newPassword": {
     "message": "New password"
   },
   "sendDisabled": {
     "message": "Send removed",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendDisabledWarning": {
     "message": "Due to an enterprise policy, you are only able to delete an existing Send.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "createdSend": {
     "message": "Send created",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "editedSend": {
     "message": "Send saved",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendLinuxChromiumFileWarning": {
     "message": "In order to choose a file, open the extension in the sidebar (if possible) or pop out to a new window by clicking this banner."
@@ -2061,7 +2061,7 @@
     "message": "Log in with device"
   },
   "loginWithDeviceEnabledInfo": {
-    "message": "Log in with device must be set up in the settings of the Bitwarden app. Need another option?"
+    "message": "Log in with device must be set up in the settings of the PersonalWarden app. Need another option?"
   },
   "fingerprintPhraseHeader": {
     "message": "Fingerprint phrase"

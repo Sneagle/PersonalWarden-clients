@@ -1,13 +1,13 @@
 import { mock, MockProxy } from "jest-mock-extended";
 
-import { EventCollectionService } from "@bitwarden/common/abstractions/event/event-collection.service";
-import { TotpService } from "@bitwarden/common/abstractions/totp.service";
-import { AuthService } from "@bitwarden/common/auth/abstractions/auth.service";
-import { CipherService } from "@bitwarden/common/vault/abstractions/cipher.service";
-import { CipherRepromptType } from "@bitwarden/common/vault/enums/cipher-reprompt-type";
-import { CipherType } from "@bitwarden/common/vault/enums/cipher-type";
-import { Cipher } from "@bitwarden/common/vault/models/domain/cipher";
-import { CipherView } from "@bitwarden/common/vault/models/view/cipher.view";
+import { EventCollectionService } from "@personalwarden/common/abstractions/event/event-collection.service";
+import { TotpService } from "@personalwarden/common/abstractions/totp.service";
+import { AuthService } from "@personalwarden/common/auth/abstractions/auth.service";
+import { CipherService } from "@personalwarden/common/vault/abstractions/cipher.service";
+import { CipherRepromptType } from "@personalwarden/common/vault/enums/cipher-reprompt-type";
+import { CipherType } from "@personalwarden/common/vault/enums/cipher-type";
+import { Cipher } from "@personalwarden/common/vault/models/domain/cipher";
+import { CipherView } from "@personalwarden/common/vault/models/view/cipher.view";
 
 import {
   CopyToClipboardAction,

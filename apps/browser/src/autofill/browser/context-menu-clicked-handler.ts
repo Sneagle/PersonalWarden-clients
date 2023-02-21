@@ -1,14 +1,14 @@
-import { EventCollectionService } from "@bitwarden/common/abstractions/event/event-collection.service";
-import { SearchService } from "@bitwarden/common/abstractions/search.service";
-import { TotpService } from "@bitwarden/common/abstractions/totp.service";
-import { AuthService } from "@bitwarden/common/auth/abstractions/auth.service";
-import { AuthenticationStatus } from "@bitwarden/common/auth/enums/authentication-status";
-import { EventType } from "@bitwarden/common/enums/eventType";
-import { StateFactory } from "@bitwarden/common/factories/stateFactory";
-import { GlobalState } from "@bitwarden/common/models/domain/global-state";
-import { CipherService } from "@bitwarden/common/vault/abstractions/cipher.service";
-import { CipherRepromptType } from "@bitwarden/common/vault/enums/cipher-reprompt-type";
-import { CipherView } from "@bitwarden/common/vault/models/view/cipher.view";
+import { EventCollectionService } from "@personalwarden/common/abstractions/event/event-collection.service";
+import { SearchService } from "@personalwarden/common/abstractions/search.service";
+import { TotpService } from "@personalwarden/common/abstractions/totp.service";
+import { AuthService } from "@personalwarden/common/auth/abstractions/auth.service";
+import { AuthenticationStatus } from "@personalwarden/common/auth/enums/authentication-status";
+import { EventType } from "@personalwarden/common/enums/eventType";
+import { StateFactory } from "@personalwarden/common/factories/stateFactory";
+import { GlobalState } from "@personalwarden/common/models/domain/global-state";
+import { CipherService } from "@personalwarden/common/vault/abstractions/cipher.service";
+import { CipherRepromptType } from "@personalwarden/common/vault/enums/cipher-reprompt-type";
+import { CipherView } from "@personalwarden/common/vault/models/view/cipher.view";
 
 import {
   authServiceFactory,

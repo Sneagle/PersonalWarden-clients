@@ -1,19 +1,19 @@
 import { Component } from "@angular/core";
 import { ActivatedRoute, Router } from "@angular/router";
 
-import { SetPasswordComponent as BaseSetPasswordComponent } from "@bitwarden/angular/components/set-password.component";
-import { ApiService } from "@bitwarden/common/abstractions/api.service";
-import { CryptoService } from "@bitwarden/common/abstractions/crypto.service";
-import { I18nService } from "@bitwarden/common/abstractions/i18n.service";
-import { MessagingService } from "@bitwarden/common/abstractions/messaging.service";
-import { OrganizationUserService } from "@bitwarden/common/abstractions/organization-user/organization-user.service";
-import { OrganizationApiServiceAbstraction } from "@bitwarden/common/abstractions/organization/organization-api.service.abstraction";
-import { PasswordGenerationService } from "@bitwarden/common/abstractions/passwordGeneration.service";
-import { PlatformUtilsService } from "@bitwarden/common/abstractions/platformUtils.service";
-import { PolicyApiServiceAbstraction } from "@bitwarden/common/abstractions/policy/policy-api.service.abstraction";
-import { PolicyService } from "@bitwarden/common/abstractions/policy/policy.service.abstraction";
-import { StateService } from "@bitwarden/common/abstractions/state.service";
-import { SyncService } from "@bitwarden/common/vault/abstractions/sync/sync.service.abstraction";
+import { SetPasswordComponent as BaseSetPasswordComponent } from "@personalwarden/angular/components/set-password.component";
+import { ApiService } from "@personalwarden/common/abstractions/api.service";
+import { CryptoService } from "@personalwarden/common/abstractions/crypto.service";
+import { I18nService } from "@personalwarden/common/abstractions/i18n.service";
+import { MessagingService } from "@personalwarden/common/abstractions/messaging.service";
+import { OrganizationUserService } from "@personalwarden/common/abstractions/organization-user/organization-user.service";
+import { OrganizationApiServiceAbstraction } from "@personalwarden/common/abstractions/organization/organization-api.service.abstraction";
+import { PasswordGenerationService } from "@personalwarden/common/abstractions/passwordGeneration.service";
+import { PlatformUtilsService } from "@personalwarden/common/abstractions/platformUtils.service";
+import { PolicyApiServiceAbstraction } from "@personalwarden/common/abstractions/policy/policy-api.service.abstraction";
+import { PolicyService } from "@personalwarden/common/abstractions/policy/policy.service.abstraction";
+import { StateService } from "@personalwarden/common/abstractions/state.service";
+import { SyncService } from "@personalwarden/common/vault/abstractions/sync/sync.service.abstraction";
 
 @Component({
   selector: "app-set-password",

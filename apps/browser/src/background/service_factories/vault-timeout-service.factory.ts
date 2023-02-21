@@ -1,4 +1,4 @@
-import { VaultTimeoutService as AbstractVaultTimeoutService } from "@bitwarden/common/abstractions/vaultTimeout/vaultTimeout.service";
+import { VaultTimeoutService as AbstractVaultTimeoutService } from "@personalwarden/common/abstractions/vaultTimeout/vaultTimeout.service";
 
 import {
   authServiceFactory,

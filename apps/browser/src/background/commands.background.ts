@@ -1,8 +1,8 @@
-import { PasswordGenerationService } from "@bitwarden/common/abstractions/passwordGeneration.service";
-import { PlatformUtilsService } from "@bitwarden/common/abstractions/platformUtils.service";
-import { VaultTimeoutService } from "@bitwarden/common/abstractions/vaultTimeout/vaultTimeout.service";
-import { AuthService } from "@bitwarden/common/auth/abstractions/auth.service";
-import { AuthenticationStatus } from "@bitwarden/common/auth/enums/authentication-status";
+import { PasswordGenerationService } from "@personalwarden/common/abstractions/passwordGeneration.service";
+import { PlatformUtilsService } from "@personalwarden/common/abstractions/platformUtils.service";
+import { VaultTimeoutService } from "@personalwarden/common/abstractions/vaultTimeout/vaultTimeout.service";
+import { AuthService } from "@personalwarden/common/auth/abstractions/auth.service";
+import { AuthenticationStatus } from "@personalwarden/common/auth/enums/authentication-status";
 
 import { BrowserApi } from "../browser/browserApi";
 

@@ -2,13 +2,13 @@ import { Component } from "@angular/core";
 import { ActivatedRoute, Router } from "@angular/router";
 import { first } from "rxjs/operators";
 
-import { ShareComponent as BaseShareComponent } from "@bitwarden/angular/components/share.component";
-import { CollectionService } from "@bitwarden/common/abstractions/collection.service";
-import { I18nService } from "@bitwarden/common/abstractions/i18n.service";
-import { LogService } from "@bitwarden/common/abstractions/log.service";
-import { OrganizationService } from "@bitwarden/common/abstractions/organization/organization.service.abstraction";
-import { PlatformUtilsService } from "@bitwarden/common/abstractions/platformUtils.service";
-import { CipherService } from "@bitwarden/common/vault/abstractions/cipher.service";
+import { ShareComponent as BaseShareComponent } from "@personalwarden/angular/components/share.component";
+import { CollectionService } from "@personalwarden/common/abstractions/collection.service";
+import { I18nService } from "@personalwarden/common/abstractions/i18n.service";
+import { LogService } from "@personalwarden/common/abstractions/log.service";
+import { OrganizationService } from "@personalwarden/common/abstractions/organization/organization.service.abstraction";
+import { PlatformUtilsService } from "@personalwarden/common/abstractions/platformUtils.service";
+import { CipherService } from "@personalwarden/common/vault/abstractions/cipher.service";
 
 @Component({
   selector: "app-vault-share",

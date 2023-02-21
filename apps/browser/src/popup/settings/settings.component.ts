@@ -3,17 +3,17 @@ import { UntypedFormControl } from "@angular/forms";
 import { Router } from "@angular/router";
 import Swal from "sweetalert2";
 
-import { ModalService } from "@bitwarden/angular/services/modal.service";
-import { CryptoService } from "@bitwarden/common/abstractions/crypto.service";
-import { EnvironmentService } from "@bitwarden/common/abstractions/environment.service";
-import { I18nService } from "@bitwarden/common/abstractions/i18n.service";
-import { MessagingService } from "@bitwarden/common/abstractions/messaging.service";
-import { PlatformUtilsService } from "@bitwarden/common/abstractions/platformUtils.service";
-import { StateService } from "@bitwarden/common/abstractions/state.service";
-import { VaultTimeoutService } from "@bitwarden/common/abstractions/vaultTimeout/vaultTimeout.service";
-import { VaultTimeoutSettingsService } from "@bitwarden/common/abstractions/vaultTimeout/vaultTimeoutSettings.service";
-import { KeyConnectorService } from "@bitwarden/common/auth/abstractions/key-connector.service";
-import { DeviceType } from "@bitwarden/common/enums/deviceType";
+import { ModalService } from "@personalwarden/angular/services/modal.service";
+import { CryptoService } from "@personalwarden/common/abstractions/crypto.service";
+import { EnvironmentService } from "@personalwarden/common/abstractions/environment.service";
+import { I18nService } from "@personalwarden/common/abstractions/i18n.service";
+import { MessagingService } from "@personalwarden/common/abstractions/messaging.service";
+import { PlatformUtilsService } from "@personalwarden/common/abstractions/platformUtils.service";
+import { StateService } from "@personalwarden/common/abstractions/state.service";
+import { VaultTimeoutService } from "@personalwarden/common/abstractions/vaultTimeout/vaultTimeout.service";
+import { VaultTimeoutSettingsService } from "@personalwarden/common/abstractions/vaultTimeout/vaultTimeoutSettings.service";
+import { KeyConnectorService } from "@personalwarden/common/auth/abstractions/key-connector.service";
+import { DeviceType } from "@personalwarden/common/enums/deviceType";
 
 import { BrowserApi } from "../../browser/browserApi";
 import { BiometricErrors, BiometricErrorTypes } from "../../models/biometricErrors";
@@ -24,16 +24,16 @@ import { AboutComponent } from "./about.component";
 
 const RateUrls = {
   [DeviceType.ChromeExtension]:
-    "https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb/reviews",
+    "https://chrome.google.com/webstore/detail/personalwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb/reviews",
   [DeviceType.FirefoxExtension]:
-    "https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/#reviews",
+    "https://addons.mozilla.org/en-US/firefox/addon/personalwarden-password-manager/#reviews",
   [DeviceType.OperaExtension]:
-    "https://addons.opera.com/en/extensions/details/bitwarden-free-password-manager/#feedback-container",
+    "https://addons.opera.com/en/extensions/details/personalwarden-free-password-manager/#feedback-container",
   [DeviceType.EdgeExtension]:
     "https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh",
   [DeviceType.VivaldiExtension]:
-    "https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb/reviews",
-  [DeviceType.SafariExtension]: "https://apps.apple.com/app/bitwarden/id1352778147",
+    "https://chrome.google.com/webstore/detail/personalwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb/reviews",
+  [DeviceType.SafariExtension]: "https://apps.apple.com/app/personalwarden/id1352778147",
 };
 
 @Component({
@@ -332,7 +332,7 @@ export class SettingsComponent implements OnInit {
     );
     if (confirmed) {
       BrowserApi.createNewTab(
-        "https://bitwarden.com/help/master-password/#change-your-master-password"
+        "https://personalwarden.com/help/master-password/#change-your-master-password"
       );
     }
   }
@@ -345,7 +345,7 @@ export class SettingsComponent implements OnInit {
       this.i18nService.t("cancel")
     );
     if (confirmed) {
-      BrowserApi.createNewTab("https://bitwarden.com/help/setup-two-step-login/");
+      BrowserApi.createNewTab("https://personalwarden.com/help/setup-two-step-login/");
     }
   }
 
@@ -357,7 +357,7 @@ export class SettingsComponent implements OnInit {
       this.i18nService.t("cancel")
     );
     if (confirmed) {
-      BrowserApi.createNewTab("https://bitwarden.com/help/about-organizations/");
+      BrowserApi.createNewTab("https://personalwarden.com/help/about-organizations/");
     }
   }
 
@@ -367,7 +367,7 @@ export class SettingsComponent implements OnInit {
   }
 
   import() {
-    BrowserApi.createNewTab("https://bitwarden.com/help/import-data/");
+    BrowserApi.createNewTab("https://personalwarden.com/help/import-data/");
   }
 
   export() {
@@ -375,7 +375,7 @@ export class SettingsComponent implements OnInit {
   }
 
   help() {
-    BrowserApi.createNewTab("https://bitwarden.com/help/");
+    BrowserApi.createNewTab("https://personalwarden.com/help/");
   }
 
   about() {
@@ -405,7 +405,7 @@ export class SettingsComponent implements OnInit {
     });
 
     if (result.value) {
-      this.platformUtilsService.launchUri("https://bitwarden.com/help/fingerprint-phrase/");
+      this.platformUtilsService.launchUri("https://personalwarden.com/help/fingerprint-phrase/");
     }
   }
 

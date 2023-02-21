@@ -2,16 +2,16 @@ import { Component } from "@angular/core";
 import { UntypedFormBuilder } from "@angular/forms";
 import { Router } from "@angular/router";
 
-import { ExportComponent as BaseExportComponent } from "@bitwarden/angular/components/export.component";
-import { CryptoService } from "@bitwarden/common/abstractions/crypto.service";
-import { EventCollectionService } from "@bitwarden/common/abstractions/event/event-collection.service";
-import { ExportService } from "@bitwarden/common/abstractions/export.service";
-import { FileDownloadService } from "@bitwarden/common/abstractions/fileDownload/fileDownload.service";
-import { I18nService } from "@bitwarden/common/abstractions/i18n.service";
-import { LogService } from "@bitwarden/common/abstractions/log.service";
-import { PlatformUtilsService } from "@bitwarden/common/abstractions/platformUtils.service";
-import { PolicyService } from "@bitwarden/common/abstractions/policy/policy.service.abstraction";
-import { UserVerificationService } from "@bitwarden/common/abstractions/userVerification/userVerification.service.abstraction";
+import { ExportComponent as BaseExportComponent } from "@personalwarden/angular/components/export.component";
+import { CryptoService } from "@personalwarden/common/abstractions/crypto.service";
+import { EventCollectionService } from "@personalwarden/common/abstractions/event/event-collection.service";
+import { ExportService } from "@personalwarden/common/abstractions/export.service";
+import { FileDownloadService } from "@personalwarden/common/abstractions/fileDownload/fileDownload.service";
+import { I18nService } from "@personalwarden/common/abstractions/i18n.service";
+import { LogService } from "@personalwarden/common/abstractions/log.service";
+import { PlatformUtilsService } from "@personalwarden/common/abstractions/platformUtils.service";
+import { PolicyService } from "@personalwarden/common/abstractions/policy/policy.service.abstraction";
+import { UserVerificationService } from "@personalwarden/common/abstractions/userVerification/userVerification.service.abstraction";
 
 @Component({
   selector: "app-export",

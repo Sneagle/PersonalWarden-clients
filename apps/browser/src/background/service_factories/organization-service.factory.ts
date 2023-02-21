@@ -1,4 +1,4 @@
-import { OrganizationService as AbstractOrganizationService } from "@bitwarden/common/abstractions/organization/organization.service.abstraction";
+import { OrganizationService as AbstractOrganizationService } from "@personalwarden/common/abstractions/organization/organization.service.abstraction";
 
 import { BrowserOrganizationService } from "../../services/browser-organization.service";
 

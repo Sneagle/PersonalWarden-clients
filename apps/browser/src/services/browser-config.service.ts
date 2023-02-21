@@ -1,7 +1,7 @@
 import { BehaviorSubject } from "rxjs";
 
-import { ServerConfig } from "@bitwarden/common/abstractions/config/server-config";
-import { ConfigService } from "@bitwarden/common/services/config/config.service";
+import { ServerConfig } from "@personalwarden/common/abstractions/config/server-config";
+import { ConfigService } from "@personalwarden/common/services/config/config.service";
 
 import { browserSession, sessionSync } from "../decorators/session-sync-observable";
 

@@ -1,6 +1,6 @@
-import { LogService } from "@bitwarden/common/abstractions/log.service";
-import { StateService } from "@bitwarden/common/abstractions/state.service";
-import { EnvironmentService } from "@bitwarden/common/services/environment.service";
+import { LogService } from "@personalwarden/common/abstractions/log.service";
+import { StateService } from "@personalwarden/common/abstractions/state.service";
+import { EnvironmentService } from "@personalwarden/common/services/environment.service";
 
 import { devFlagEnabled, devFlagValue } from "../flags";
 import { GroupPolicyEnvironment } from "../types/group-policy-environment";

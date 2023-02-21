@@ -1,9 +1,9 @@
-import { I18nService } from "@bitwarden/common/abstractions/i18n.service";
-import { LogService } from "@bitwarden/common/abstractions/log.service";
-import { MessagingService } from "@bitwarden/common/abstractions/messaging.service";
-import { NotificationsService } from "@bitwarden/common/abstractions/notifications.service";
-import { SystemService } from "@bitwarden/common/abstractions/system.service";
-import { Utils } from "@bitwarden/common/misc/utils";
+import { I18nService } from "@personalwarden/common/abstractions/i18n.service";
+import { LogService } from "@personalwarden/common/abstractions/log.service";
+import { MessagingService } from "@personalwarden/common/abstractions/messaging.service";
+import { NotificationsService } from "@personalwarden/common/abstractions/notifications.service";
+import { SystemService } from "@personalwarden/common/abstractions/system.service";
+import { Utils } from "@personalwarden/common/misc/utils";
 
 import { AutofillService } from "../autofill/services/abstractions/autofill.service";
 import { BrowserApi } from "../browser/browserApi";
@@ -52,7 +52,7 @@ export default class RuntimeBackground {
 
     BrowserApi.messageListener("runtime.background", backgroundMessageListener);
     if (this.main.popupOnlyContext) {
-      (window as any).bitwardenBackgroundMessageListener = backgroundMessageListener;
+      (window as any).personalwardenBackgroundMessageListener = backgroundMessageListener;
     }
   }
 
@@ -231,7 +231,7 @@ export default class RuntimeBackground {
     setTimeout(async () => {
       if (this.onInstalledReason != null) {
         if (this.onInstalledReason === "install") {
-          BrowserApi.createNewTab("https://bitwarden.com/browser-start/");
+          BrowserApi.createNewTab("https://personalwarden.com/browser-start/");
 
           if (await this.environmentService.hasManagedEnvironment()) {
             await this.environmentService.setUrlsToManagedEnvironment();

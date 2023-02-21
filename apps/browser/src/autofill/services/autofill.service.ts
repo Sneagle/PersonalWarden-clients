@@ -1,14 +1,14 @@
-import { EventCollectionService } from "@bitwarden/common/abstractions/event/event-collection.service";
-import { LogService } from "@bitwarden/common/abstractions/log.service";
-import { TotpService } from "@bitwarden/common/abstractions/totp.service";
-import { EventType } from "@bitwarden/common/enums/eventType";
-import { FieldType } from "@bitwarden/common/enums/fieldType";
-import { UriMatchType } from "@bitwarden/common/enums/uriMatchType";
-import { CipherService } from "@bitwarden/common/vault/abstractions/cipher.service";
-import { CipherRepromptType } from "@bitwarden/common/vault/enums/cipher-reprompt-type";
-import { CipherType } from "@bitwarden/common/vault/enums/cipher-type";
-import { CipherView } from "@bitwarden/common/vault/models/view/cipher.view";
-import { FieldView } from "@bitwarden/common/vault/models/view/field.view";
+import { EventCollectionService } from "@personalwarden/common/abstractions/event/event-collection.service";
+import { LogService } from "@personalwarden/common/abstractions/log.service";
+import { TotpService } from "@personalwarden/common/abstractions/totp.service";
+import { EventType } from "@personalwarden/common/enums/eventType";
+import { FieldType } from "@personalwarden/common/enums/fieldType";
+import { UriMatchType } from "@personalwarden/common/enums/uriMatchType";
+import { CipherService } from "@personalwarden/common/vault/abstractions/cipher.service";
+import { CipherRepromptType } from "@personalwarden/common/vault/enums/cipher-reprompt-type";
+import { CipherType } from "@personalwarden/common/vault/enums/cipher-type";
+import { CipherView } from "@personalwarden/common/vault/models/view/cipher.view";
+import { FieldView } from "@personalwarden/common/vault/models/view/field.view";
 
 import { BrowserApi } from "../../browser/browserApi";
 import { BrowserStateService } from "../../services/abstractions/browser-state.service";

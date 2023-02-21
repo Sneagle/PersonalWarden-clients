@@ -1,10 +1,10 @@
 import { Jsonify } from "type-fest";
 
-import { EncryptService } from "@bitwarden/common/abstractions/encrypt.service";
-import { AbstractMemoryStorageService } from "@bitwarden/common/abstractions/storage.service";
-import { EncString } from "@bitwarden/common/models/domain/enc-string";
-import { MemoryStorageOptions } from "@bitwarden/common/models/domain/storage-options";
-import { SymmetricCryptoKey } from "@bitwarden/common/models/domain/symmetric-crypto-key";
+import { EncryptService } from "@personalwarden/common/abstractions/encrypt.service";
+import { AbstractMemoryStorageService } from "@personalwarden/common/abstractions/storage.service";
+import { EncString } from "@personalwarden/common/models/domain/enc-string";
+import { MemoryStorageOptions } from "@personalwarden/common/models/domain/storage-options";
+import { SymmetricCryptoKey } from "@personalwarden/common/models/domain/symmetric-crypto-key";
 
 import { devFlag } from "../decorators/dev-flag.decorator";
 import { devFlagEnabled } from "../flags";

@@ -3,7 +3,7 @@ import os.log
 import LocalAuthentication
 
 let SFExtensionMessageKey = "message"
-let ServiceName = "Bitwarden"
+let ServiceName = "PersonalWarden"
 let ServiceNameBiometric = ServiceName + "_biometric"
 
 class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
@@ -113,7 +113,7 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
                 ]
                 break
             }
-            laContext.evaluateAccessControl(accessControl, operation: .useKeySign, localizedReason: "Bitwarden Safari Extension") { (success, error) in
+            laContext.evaluateAccessControl(accessControl, operation: .useKeySign, localizedReason: "PersonalWarden Safari Extension") { (success, error) in
                 if success {
                     guard let userId = message?["userId"] as? String else {
                         return

@@ -1,4 +1,4 @@
-import { PlatformUtilsService } from "@bitwarden/common/abstractions/platformUtils.service";
+import { PlatformUtilsService } from "@personalwarden/common/abstractions/platformUtils.service";
 
 import BrowserPlatformUtilsService from "../../services/browserPlatformUtils.service";
 

@@ -1,4 +1,4 @@
-import { VaultTimeoutService as BaseVaultTimeoutService } from "@bitwarden/common/services/vaultTimeout/vaultTimeout.service";
+import { VaultTimeoutService as BaseVaultTimeoutService } from "@personalwarden/common/services/vaultTimeout/vaultTimeout.service";
 
 import { SafariApp } from "../../browser/safariApp";
 

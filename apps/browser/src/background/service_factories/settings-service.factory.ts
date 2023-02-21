@@ -1,4 +1,4 @@
-import { SettingsService as AbstractSettingsService } from "@bitwarden/common/abstractions/settings.service";
+import { SettingsService as AbstractSettingsService } from "@personalwarden/common/abstractions/settings.service";
 
 import { BrowserSettingsService } from "../../services/browser-settings.service";
 

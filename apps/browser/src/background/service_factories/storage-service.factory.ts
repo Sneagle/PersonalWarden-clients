@@ -1,8 +1,8 @@
 import {
   AbstractMemoryStorageService,
   AbstractStorageService,
-} from "@bitwarden/common/abstractions/storage.service";
-import { MemoryStorageService } from "@bitwarden/common/services/memoryStorage.service";
+} from "@personalwarden/common/abstractions/storage.service";
+import { MemoryStorageService } from "@personalwarden/common/services/memoryStorage.service";
 
 import { BrowserApi } from "../../browser/browserApi";
 import BrowserLocalStorageService from "../../services/browserLocalStorage.service";

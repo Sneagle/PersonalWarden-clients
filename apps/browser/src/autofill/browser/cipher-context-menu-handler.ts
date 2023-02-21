@@ -1,13 +1,13 @@
-import { SearchService } from "@bitwarden/common/abstractions/search.service";
-import { AuthService } from "@bitwarden/common/auth/abstractions/auth.service";
-import { AuthenticationStatus } from "@bitwarden/common/auth/enums/authentication-status";
-import { StateFactory } from "@bitwarden/common/factories/stateFactory";
-import { Utils } from "@bitwarden/common/misc/utils";
-import { GlobalState } from "@bitwarden/common/models/domain/global-state";
-import { CipherService } from "@bitwarden/common/vault/abstractions/cipher.service";
-import { CipherRepromptType } from "@bitwarden/common/vault/enums/cipher-reprompt-type";
-import { CipherType } from "@bitwarden/common/vault/enums/cipher-type";
-import { CipherView } from "@bitwarden/common/vault/models/view/cipher.view";
+import { SearchService } from "@personalwarden/common/abstractions/search.service";
+import { AuthService } from "@personalwarden/common/auth/abstractions/auth.service";
+import { AuthenticationStatus } from "@personalwarden/common/auth/enums/authentication-status";
+import { StateFactory } from "@personalwarden/common/factories/stateFactory";
+import { Utils } from "@personalwarden/common/misc/utils";
+import { GlobalState } from "@personalwarden/common/models/domain/global-state";
+import { CipherService } from "@personalwarden/common/vault/abstractions/cipher.service";
+import { CipherRepromptType } from "@personalwarden/common/vault/enums/cipher-reprompt-type";
+import { CipherType } from "@personalwarden/common/vault/enums/cipher-type";
+import { CipherView } from "@personalwarden/common/vault/models/view/cipher.view";
 
 import {
   authServiceFactory,

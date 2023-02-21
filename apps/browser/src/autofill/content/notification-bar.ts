@@ -2,7 +2,7 @@ import AddLoginRuntimeMessage from "../../background/models/addLoginRuntimeMessa
 import ChangePasswordRuntimeMessage from "../../background/models/changePasswordRuntimeMessage";
 
 document.addEventListener("DOMContentLoaded", (event) => {
-  if (window.location.hostname.endsWith("vault.bitwarden.com")) {
+  if (window.location.hostname.endsWith("vault.personalwarden.com")) {
     return;
   }
 
@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             if (
               tagName != null &&
               tagName === "form" &&
-              (addedNode.dataset == null || !addedNode.dataset.bitwardenWatching)
+              (addedNode.dataset == null || !addedNode.dataset.personalwardenWatching)
             ) {
               doCollect = true;
               break;
@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
               continue;
             }
 
-            const forms = addedNode.querySelectorAll("form:not([data-bitwarden-watching])");
+            const forms = addedNode.querySelectorAll("form:not([data-personalwarden-watching])");
             if (forms != null && forms.length > 0) {
               doCollect = true;
               break;
@@ -235,7 +235,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         formEl = document.getElementsByTagName("form")[index];
       }
 
-      if (formEl != null && formEl.dataset.bitwardenWatching !== "1") {
+      if (formEl != null && formEl.dataset.personalwardenWatching !== "1") {
         const formDataObj: any = {
           data: f,
           formEl: formEl,
@@ -246,7 +246,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         locateFields(formDataObj);
         formData.push(formDataObj);
         listen(formEl);
-        formEl.dataset.bitwardenWatching = "1";
+        formEl.dataset.personalwardenWatching = "1";
       }
     });
   }
@@ -339,7 +339,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
       form = e.target as HTMLFormElement;
     }
 
-    if (form == null || form.dataset.bitwardenProcessed === "1") {
+    if (form == null || form.dataset.personalwardenProcessed === "1") {
       return;
     }
 
@@ -491,9 +491,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
   }
 
   function processedForm(form: HTMLFormElement) {
-    form.dataset.bitwardenProcessed = "1";
+    form.dataset.personalwardenProcessed = "1";
     window.setTimeout(() => {
-      form.dataset.bitwardenProcessed = "0";
+      form.dataset.personalwardenProcessed = "0";
     }, 500);
   }
 

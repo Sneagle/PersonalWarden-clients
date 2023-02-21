@@ -1,9 +1,9 @@
 import { Component, OnInit } from "@angular/core";
 import { Router } from "@angular/router";
 
-import { EnvironmentComponent as BaseEnvironmentComponent } from "@bitwarden/angular/components/environment.component";
-import { I18nService } from "@bitwarden/common/abstractions/i18n.service";
-import { PlatformUtilsService } from "@bitwarden/common/abstractions/platformUtils.service";
+import { EnvironmentComponent as BaseEnvironmentComponent } from "@personalwarden/angular/components/environment.component";
+import { I18nService } from "@personalwarden/common/abstractions/i18n.service";
+import { PlatformUtilsService } from "@personalwarden/common/abstractions/platformUtils.service";
 
 import { BrowserEnvironmentService } from "../../services/browser-environment.service";
 

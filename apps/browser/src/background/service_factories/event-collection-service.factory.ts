@@ -1,5 +1,5 @@
-import { EventCollectionService as AbstractEventCollectionService } from "@bitwarden/common/abstractions/event/event-collection.service";
-import { EventCollectionService } from "@bitwarden/common/services/event/event-collection.service";
+import { EventCollectionService as AbstractEventCollectionService } from "@personalwarden/common/abstractions/event/event-collection.service";
+import { EventCollectionService } from "@personalwarden/common/services/event/event-collection.service";
 
 import {
   cipherServiceFactory,

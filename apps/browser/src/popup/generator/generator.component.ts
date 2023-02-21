@@ -2,14 +2,14 @@ import { Location } from "@angular/common";
 import { Component } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
 
-import { GeneratorComponent as BaseGeneratorComponent } from "@bitwarden/angular/components/generator.component";
-import { I18nService } from "@bitwarden/common/abstractions/i18n.service";
-import { LogService } from "@bitwarden/common/abstractions/log.service";
-import { PasswordGenerationService } from "@bitwarden/common/abstractions/passwordGeneration.service";
-import { PlatformUtilsService } from "@bitwarden/common/abstractions/platformUtils.service";
-import { StateService } from "@bitwarden/common/abstractions/state.service";
-import { UsernameGenerationService } from "@bitwarden/common/abstractions/usernameGeneration.service";
-import { CipherView } from "@bitwarden/common/vault/models/view/cipher.view";
+import { GeneratorComponent as BaseGeneratorComponent } from "@personalwarden/angular/components/generator.component";
+import { I18nService } from "@personalwarden/common/abstractions/i18n.service";
+import { LogService } from "@personalwarden/common/abstractions/log.service";
+import { PasswordGenerationService } from "@personalwarden/common/abstractions/passwordGeneration.service";
+import { PlatformUtilsService } from "@personalwarden/common/abstractions/platformUtils.service";
+import { StateService } from "@personalwarden/common/abstractions/state.service";
+import { UsernameGenerationService } from "@personalwarden/common/abstractions/usernameGeneration.service";
+import { CipherView } from "@personalwarden/common/vault/models/view/cipher.view";
 
 @Component({
   selector: "app-generator",

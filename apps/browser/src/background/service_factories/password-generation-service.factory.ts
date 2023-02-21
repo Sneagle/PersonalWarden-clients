@@ -1,5 +1,5 @@
-import { PasswordGenerationService as AbstractPasswordGenerationService } from "@bitwarden/common/abstractions/passwordGeneration.service";
-import { PasswordGenerationService } from "@bitwarden/common/services/passwordGeneration.service";
+import { PasswordGenerationService as AbstractPasswordGenerationService } from "@personalwarden/common/abstractions/passwordGeneration.service";
+import { PasswordGenerationService } from "@personalwarden/common/services/passwordGeneration.service";
 
 import { cryptoServiceFactory, CryptoServiceInitOptions } from "./crypto-service.factory";
 import { CachedServices, factory, FactoryOptions } from "./factory-options";

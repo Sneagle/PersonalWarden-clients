@@ -1,7 +1,7 @@
 import { BehaviorSubject, concatMap, ReplaySubject, skip, Subject, Subscription } from "rxjs";
 
-import { AbstractMemoryStorageService } from "@bitwarden/common/abstractions/storage.service";
-import { Utils } from "@bitwarden/common/misc/utils";
+import { AbstractMemoryStorageService } from "@personalwarden/common/abstractions/storage.service";
+import { Utils } from "@personalwarden/common/misc/utils";
 
 import { BrowserApi } from "../../browser/browserApi";
 

@@ -1,5 +1,5 @@
-import { ApiService as AbstractApiService } from "@bitwarden/common/abstractions/api.service";
-import { ApiService } from "@bitwarden/common/services/api.service";
+import { ApiService as AbstractApiService } from "@personalwarden/common/abstractions/api.service";
+import { ApiService } from "@personalwarden/common/services/api.service";
 
 import {
   tokenServiceFactory,

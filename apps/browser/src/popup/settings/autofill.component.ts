@@ -1,9 +1,9 @@
 import { Component, OnInit } from "@angular/core";
 
-import { I18nService } from "@bitwarden/common/abstractions/i18n.service";
-import { PlatformUtilsService } from "@bitwarden/common/abstractions/platformUtils.service";
-import { StateService } from "@bitwarden/common/abstractions/state.service";
-import { UriMatchType } from "@bitwarden/common/enums/uriMatchType";
+import { I18nService } from "@personalwarden/common/abstractions/i18n.service";
+import { PlatformUtilsService } from "@personalwarden/common/abstractions/platformUtils.service";
+import { StateService } from "@personalwarden/common/abstractions/state.service";
+import { UriMatchType } from "@personalwarden/common/enums/uriMatchType";
 
 import { BrowserApi } from "../../browser/browserApi";
 
@@ -64,7 +64,7 @@ export class AutofillComponent implements OnInit {
   }
 
   AboutAutofill() {
-    BrowserApi.createNewTab("https://bitwarden.com/help/auto-fill-browser/");
+    BrowserApi.createNewTab("https://personalwarden.com/help/auto-fill-browser/");
   }
 
   private async setAutofillKeyboardHelperText(command: string) {
@@ -85,7 +85,7 @@ export class AutofillComponent implements OnInit {
     } else if (this.platformUtilsService.isVivaldi()) {
       BrowserApi.createNewTab("vivaldi://extensions/shortcuts");
     } else {
-      BrowserApi.createNewTab("https://bitwarden.com/help/keyboard-shortcuts");
+      BrowserApi.createNewTab("https://personalwarden.com/help/keyboard-shortcuts");
     }
   }
 }

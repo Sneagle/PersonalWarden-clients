@@ -1,15 +1,15 @@
 import { Component, EventEmitter, Input, Output } from "@angular/core";
 
-import { EventCollectionService } from "@bitwarden/common/abstractions/event/event-collection.service";
-import { I18nService } from "@bitwarden/common/abstractions/i18n.service";
-import { PlatformUtilsService } from "@bitwarden/common/abstractions/platformUtils.service";
-import { StateService } from "@bitwarden/common/abstractions/state.service";
-import { TotpService } from "@bitwarden/common/abstractions/totp.service";
-import { EventType } from "@bitwarden/common/enums/eventType";
-import { PasswordRepromptService } from "@bitwarden/common/vault/abstractions/password-reprompt.service";
-import { CipherRepromptType } from "@bitwarden/common/vault/enums/cipher-reprompt-type";
-import { CipherType } from "@bitwarden/common/vault/enums/cipher-type";
-import { CipherView } from "@bitwarden/common/vault/models/view/cipher.view";
+import { EventCollectionService } from "@personalwarden/common/abstractions/event/event-collection.service";
+import { I18nService } from "@personalwarden/common/abstractions/i18n.service";
+import { PlatformUtilsService } from "@personalwarden/common/abstractions/platformUtils.service";
+import { StateService } from "@personalwarden/common/abstractions/state.service";
+import { TotpService } from "@personalwarden/common/abstractions/totp.service";
+import { EventType } from "@personalwarden/common/enums/eventType";
+import { PasswordRepromptService } from "@personalwarden/common/vault/abstractions/password-reprompt.service";
+import { CipherRepromptType } from "@personalwarden/common/vault/enums/cipher-reprompt-type";
+import { CipherType } from "@personalwarden/common/vault/enums/cipher-type";
+import { CipherView } from "@personalwarden/common/vault/models/view/cipher.view";
 
 @Component({
   selector: "app-action-buttons",

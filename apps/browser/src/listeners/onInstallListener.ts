@@ -1,5 +1,5 @@
-import { StateFactory } from "@bitwarden/common/factories/stateFactory";
-import { GlobalState } from "@bitwarden/common/models/domain/global-state";
+import { StateFactory } from "@personalwarden/common/factories/stateFactory";
+import { GlobalState } from "@personalwarden/common/models/domain/global-state";
 
 import {
   environmentServiceFactory,
@@ -31,7 +31,7 @@ export async function onInstallListener(details: chrome.runtime.InstalledDetails
 
   setTimeout(async () => {
     if (details.reason != null && details.reason === chrome.runtime.OnInstalledReason.INSTALL) {
-      BrowserApi.createNewTab("https://bitwarden.com/browser-start/");
+      BrowserApi.createNewTab("https://personalwarden.com/browser-start/");
 
       if (await environmentService.hasManagedEnvironment()) {
         await environmentService.setUrlsToManagedEnvironment();

@@ -1,5 +1,5 @@
-import { NotificationsService } from "@bitwarden/common/abstractions/notifications.service";
-import { VaultTimeoutService } from "@bitwarden/common/abstractions/vaultTimeout/vaultTimeout.service";
+import { NotificationsService } from "@personalwarden/common/abstractions/notifications.service";
+import { VaultTimeoutService } from "@personalwarden/common/abstractions/vaultTimeout/vaultTimeout.service";
 
 import { BrowserStateService } from "../services/abstractions/browser-state.service";
 

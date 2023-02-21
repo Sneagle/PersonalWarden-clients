@@ -1,5 +1,5 @@
-import { SearchService as AbstractSearchService } from "@bitwarden/common/abstractions/search.service";
-import { SearchService } from "@bitwarden/common/services/search.service";
+import { SearchService as AbstractSearchService } from "@personalwarden/common/abstractions/search.service";
+import { SearchService } from "@personalwarden/common/services/search.service";
 
 import {
   cipherServiceFactory,

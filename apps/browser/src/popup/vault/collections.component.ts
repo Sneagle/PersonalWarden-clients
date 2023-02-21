@@ -3,12 +3,12 @@ import { Component } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
 import { first } from "rxjs/operators";
 
-import { CollectionsComponent as BaseCollectionsComponent } from "@bitwarden/angular/components/collections.component";
-import { CollectionService } from "@bitwarden/common/abstractions/collection.service";
-import { I18nService } from "@bitwarden/common/abstractions/i18n.service";
-import { LogService } from "@bitwarden/common/abstractions/log.service";
-import { PlatformUtilsService } from "@bitwarden/common/abstractions/platformUtils.service";
-import { CipherService } from "@bitwarden/common/vault/abstractions/cipher.service";
+import { CollectionsComponent as BaseCollectionsComponent } from "@personalwarden/angular/components/collections.component";
+import { CollectionService } from "@personalwarden/common/abstractions/collection.service";
+import { I18nService } from "@personalwarden/common/abstractions/i18n.service";
+import { LogService } from "@personalwarden/common/abstractions/log.service";
+import { PlatformUtilsService } from "@personalwarden/common/abstractions/platformUtils.service";
+import { CipherService } from "@personalwarden/common/vault/abstractions/cipher.service";
 
 @Component({
   selector: "app-vault-collections",

@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "PersonalWarden"
   },
   "extName": {
-    "message": "Bitwarden - бесплатный менеджер паролей",
+    "message": "PersonalWarden - бесплатный менеджер паролей",
     "description": "Extension name, MUST be less than 40 characters (Safari restriction)"
   },
   "extDesc": {
@@ -163,7 +163,7 @@
     "message": "Выход"
   },
   "about": {
-    "message": "О Bitwarden"
+    "message": "О PersonalWarden"
   },
   "version": {
     "message": "Версия"
@@ -215,7 +215,7 @@
     "message": "Автоматическая генерация сильных и уникальных паролей для ваших логинов."
   },
   "bitWebVault": {
-    "message": "Веб-хранилище Bitwarden"
+    "message": "Веб-хранилище PersonalWarden"
   },
   "importItems": {
     "message": "Импорт элементов"
@@ -356,7 +356,7 @@
       },
       "hostname": {
         "content": "$2",
-        "example": "bitwarden.com"
+        "example": "personalwarden.com"
       }
     }
   },
@@ -495,10 +495,10 @@
     "message": "Изменить мастер-пароль"
   },
   "changeMasterPasswordConfirmation": {
-    "message": "Вы можете изменить свой мастер-пароль на bitwarden.com. Перейти на сайт сейчас?"
+    "message": "Вы можете изменить свой мастер-пароль на personalwarden.com. Перейти на сайт сейчас?"
   },
   "twoStepLoginConfirmation": {
-    "message": "Двухэтапная аутентификация делает аккаунт более защищенным, поскольку требуется подтверждение входа при помощи другого устройства, например, ключа безопасности, приложения-аутентификатора, SMS, телефонного звонка или электронной почты. Двухэтапная аутентификация включается на bitwarden.com. Перейти на сайт сейчас?"
+    "message": "Двухэтапная аутентификация делает аккаунт более защищенным, поскольку требуется подтверждение входа при помощи другого устройства, например, ключа безопасности, приложения-аутентификатора, SMS, телефонного звонка или электронной почты. Двухэтапная аутентификация включается на personalwarden.com. Перейти на сайт сейчас?"
   },
   "editedFolder": {
     "message": "Папка сохранена"
@@ -510,7 +510,7 @@
     "message": "Папка удалена"
   },
   "gettingStartedTutorial": {
-    "message": "Гид по bitwarden"
+    "message": "Гид по personalwarden"
   },
   "gettingStartedTutorialVideo": {
     "message": "Посмотрите небольшой обучающий материал, чтобы узнать, как получить максимальную отдачу от расширения браузера."
@@ -604,7 +604,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Должен ли Bitwarden запомнить этот пароль?"
+    "message": "Должен ли PersonalWarden запомнить этот пароль?"
   },
   "notificationAddSave": {
     "message": "Сохранить"
@@ -616,7 +616,7 @@
     "message": "Спрашивать обновление пароля логина при обнаружении изменения на сайте."
   },
   "notificationChangeDesc": {
-    "message": "Обновить этот пароль в Bitwarden?"
+    "message": "Обновить этот пароль в PersonalWarden?"
   },
   "notificationChangeSave": {
     "message": "Обновить"
@@ -672,7 +672,7 @@
     "message": "При экспорте данные шифруются при помощи ключа шифрования учетной записи. Если вы решите сменить ключ шифрования, вам следует экспортировать данные повторно, поскольку вы не сможете расшифровать этот файл экспорта."
   },
   "encExportAccountWarningDesc": {
-    "message": "Ключи шифрования уникальны для каждой учетной записи Bitwarden, поэтому нельзя импортировать зашифрованное хранилище в другой аккаунт."
+    "message": "Ключи шифрования уникальны для каждой учетной записи PersonalWarden, поэтому нельзя импортировать зашифрованное хранилище в другой аккаунт."
   },
   "exportMasterPassword": {
     "message": "Для экспорта данных из хранилища введите мастер-пароль."
@@ -684,7 +684,7 @@
     "message": "Узнать об организациях"
   },
   "learnOrgConfirmation": {
-    "message": "Bitwarden позволяет делиться элементами вашего хранилища с другими пользователями с помощью организации. Хотите посетить сайт bitwarden.com, чтобы узнать больше?"
+    "message": "PersonalWarden позволяет делиться элементами вашего хранилища с другими пользователями с помощью организации. Хотите посетить сайт personalwarden.com, чтобы узнать больше?"
   },
   "moveToOrganization": {
     "message": "Переместить в организацию"
@@ -763,7 +763,7 @@
     "message": "Управление Премиум"
   },
   "premiumManageAlert": {
-    "message": "Вы можете управлять Премиум на bitwarden.com. Перейти на сайт сейчас?"
+    "message": "Вы можете управлять Премиум на personalwarden.com. Перейти на сайт сейчас?"
   },
   "premiumRefresh": {
     "message": "Обновить Премиум"
@@ -796,13 +796,13 @@
     "message": "Купить Премиум"
   },
   "premiumPurchaseAlert": {
-    "message": "Вы можете купить Премиум на bitwarden.com. Перейти на сайт сейчас?"
+    "message": "Вы можете купить Премиум на personalwarden.com. Перейти на сайт сейчас?"
   },
   "premiumCurrentMember": {
     "message": "У вас есть Премиум!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Благодарим вас за поддержку Bitwarden."
+    "message": "Благодарим вас за поддержку PersonalWarden."
   },
   "premiumPrice": {
     "message": "Всего лишь $PRICE$ в год!",
@@ -931,7 +931,7 @@
     "message": "Окружение пользовательского хостинга"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Укажите URL Bitwarden на вашем сервере."
+    "message": "Укажите URL PersonalWarden на вашем сервере."
   },
   "customEnvironment": {
     "message": "Пользовательское окружение"
@@ -1041,7 +1041,7 @@
     "description": "This describes a value that is 'linked' (tied) to another value."
   },
   "popup2faCloseMessage": {
-    "message": "Щелчок за пределами этого окна для просмотра кода проверки из электронной почты приведет к его закрытию. Открыть bitwarden в новом окне?"
+    "message": "Щелчок за пределами этого окна для просмотра кода проверки из электронной почты приведет к его закрытию. Открыть personalwarden в новом окне?"
   },
   "popupU2fCloseMessage": {
     "message": "Этот браузер не может обрабатывать запросы U2F в этом всплывающем окне. Вы хотите открыть это всплывающее окно в новом окне, чтобы иметь возможность войти в систему, используя U2F?"
@@ -1363,7 +1363,7 @@
     "message": "Слабый мастер-пароль"
   },
   "weakMasterPasswordDesc": {
-    "message": "Вы выбрали слабый мастер-пароль. Для надежной защиты аккаунта Bitwarden следует использовать сильный мастер-пароль (или парольную фразу). Вы действительно хотите использовать этот мастер-пароль?"
+    "message": "Вы выбрали слабый мастер-пароль. Для надежной защиты аккаунта PersonalWarden следует использовать сильный мастер-пароль (или парольную фразу). Вы действительно хотите использовать этот мастер-пароль?"
   },
   "pin": {
     "message": "PIN-код",
@@ -1373,7 +1373,7 @@
     "message": "Разблокировать с помощью PIN-кода"
   },
   "setYourPinCode": {
-    "message": "Установите PIN-код для разблокировки Bitwarden. Настройки PIN-кода будут сброшены, если вы когда-либо полностью выйдете из приложения."
+    "message": "Установите PIN-код для разблокировки PersonalWarden. Настройки PIN-кода будут сброшены, если вы когда-либо полностью выйдете из приложения."
   },
   "pinRequired": {
     "message": "Необходим PIN-код."
@@ -1388,7 +1388,7 @@
     "message": "Ожидание подтверждения с компьютера"
   },
   "awaitDesktopDesc": {
-    "message": "Для включения биометрии в браузере, подтвердите это в приложении Bitwarden для компьютера."
+    "message": "Для включения биометрии в браузере, подтвердите это в приложении PersonalWarden для компьютера."
   },
   "lockWithMasterPassOnRestart": {
     "message": "Блокировать мастер-паролем при перезапуске браузера"
@@ -1525,13 +1525,13 @@
     "message": "Интеграция с браузером не настроена"
   },
   "desktopIntegrationDisabledDesc": {
-    "message": "Пожалуйста, настройте интеграцию с браузером в приложени Bitwarden для компьютера."
+    "message": "Пожалуйста, настройте интеграцию с браузером в приложени PersonalWarden для компьютера."
   },
   "startDesktopTitle": {
-    "message": "Запустить приложение Bitwarden для компьютера"
+    "message": "Запустить приложение PersonalWarden для компьютера"
   },
   "startDesktopDesc": {
-    "message": "Перед использованием разблокировки с помощью биометрии необходимо запустить приложение Bitwarden для компьютера."
+    "message": "Перед использованием разблокировки с помощью биометрии необходимо запустить приложение PersonalWarden для компьютера."
   },
   "errorEnableBiometricTitle": {
     "message": "Не удается настроить биометрию"
@@ -1567,7 +1567,7 @@
     "message": "Разрешение не представлено"
   },
   "nativeMessaginPermissionErrorDesc": {
-    "message": "Без разрешения на взаимодействие с Bitwarden для компьютера биометрия в расширении браузера работать не сможет. Попробуйте еще раз."
+    "message": "Без разрешения на взаимодействие с PersonalWarden для компьютера биометрия в расширении браузера работать не сможет. Попробуйте еще раз."
   },
   "nativeMessaginPermissionSidebarTitle": {
     "message": "Ошибка при запросе разрешения"
@@ -1585,7 +1585,7 @@
     "message": "Исключенные домены"
   },
   "excludedDomainsDesc": {
-    "message": "Bitwarden не будет предлагать сохранить логины для этих доменов. Для вступления изменений в силу необходимо обновить страницу."
+    "message": "PersonalWarden не будет предлагать сохранить логины для этих доменов. Для вступления изменений в силу необходимо обновить страницу."
   },
   "excludedDomainsInvalidDomain": {
     "message": "$DOMAIN$ – некорректно указанный домен",
@@ -1598,15 +1598,15 @@
   },
   "send": {
     "message": "Send",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "searchSends": {
     "message": "Поиск Send’ов",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "addSend": {
     "message": "Добавить Send",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendTypeText": {
     "message": "Текст"
@@ -1616,7 +1616,7 @@
   },
   "allSends": {
     "message": "Все Send’ы",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "maxAccessCountReached": {
     "message": "Достигнут максимум обращений",
@@ -1633,7 +1633,7 @@
   },
   "copySendLink": {
     "message": "Скопировать ссылку на Send",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "removePassword": {
     "message": "Удалить пароль"
@@ -1646,11 +1646,11 @@
   },
   "deletedSend": {
     "message": "Send удалена",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendLink": {
     "message": "Ссылка на Send",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "disabled": {
     "message": "Отключено"
@@ -1660,23 +1660,23 @@
   },
   "deleteSend": {
     "message": "Удалить Send",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "deleteSendConfirmation": {
     "message": "Вы действительно хотите удалить эту Send?",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "editSend": {
     "message": "Изменить Send",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendTypeHeader": {
     "message": "Выберите тип Send",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendNameDesc": {
     "message": "Понятное имя для описания этой Send.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendFileDesc": {
     "message": "Файл, который вы хотите отправить."
@@ -1686,14 +1686,14 @@
   },
   "deletionDateDesc": {
     "message": "Эта Send будет окончательно удалена в указанные дату и время.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "expirationDate": {
     "message": "Дата истечения"
   },
   "expirationDateDesc": {
     "message": "Если задано, доступ к этой Send истечет в указанные дату и время.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "oneDay": {
     "message": "1 день"
@@ -1715,56 +1715,56 @@
   },
   "maximumAccessCountDesc": {
     "message": "Если задано, пользователи больше не смогут получить доступ к этой Send, как только будет достигнуто максимальное количество обращений.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendPasswordDesc": {
     "message": "По возможности запрашивать у пользователей пароль для доступа к этой Send.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendNotesDesc": {
     "message": "Личные заметки об этой Send.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendDisableDesc": {
     "message": "Деактивировать эту Send, чтобы никто не мог получить к ней доступ.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendShareDesc": {
     "message": "Скопировать ссылку на эту Send в буфер обмена после сохранения.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendTextDesc": {
     "message": "Текст, который вы хотите отправить."
   },
   "sendHideText": {
     "message": "Скрыть текст этой Send по умолчанию.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "currentAccessCount": {
     "message": "Текущих обращений"
   },
   "createSend": {
     "message": "Новая Send",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "newPassword": {
     "message": "Новый пароль"
   },
   "sendDisabled": {
     "message": "Send удалена",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendDisabledWarning": {
     "message": "В соответствии с корпоративной политикой вы можете удалить только существующую Send.",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "createdSend": {
     "message": "Send создана",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "editedSend": {
     "message": "Send сохранена",
-    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+    "description": "'Send' is a noun and the name of a feature called 'PersonalWarden Send'. It should not be translated."
   },
   "sendLinuxChromiumFileWarning": {
     "message": "Для выбора файла откройте расширение в боковой панели (если возможно) или перейдите в новое окно, нажав на этот баннер."
@@ -2061,7 +2061,7 @@
     "message": "Войти с помощью устройства"
   },
   "loginWithDeviceEnabledInfo": {
-    "message": "Вход с устройства должен быть настроен в настройках мобильного приложения Bitwarden. Нужен другой вариант?"
+    "message": "Вход с устройства должен быть настроен в настройках мобильного приложения PersonalWarden. Нужен другой вариант?"
   },
   "fingerprintPhraseHeader": {
     "message": "Фраза отпечатка"

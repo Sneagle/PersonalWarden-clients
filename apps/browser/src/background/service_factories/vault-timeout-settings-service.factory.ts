@@ -1,5 +1,5 @@
-import { VaultTimeoutSettingsService as AbstractVaultTimeoutSettingsService } from "@bitwarden/common/abstractions/vaultTimeout/vaultTimeoutSettings.service";
-import { VaultTimeoutSettingsService } from "@bitwarden/common/services/vaultTimeout/vaultTimeoutSettings.service";
+import { VaultTimeoutSettingsService as AbstractVaultTimeoutSettingsService } from "@personalwarden/common/abstractions/vaultTimeout/vaultTimeoutSettings.service";
+import { VaultTimeoutSettingsService } from "@personalwarden/common/services/vaultTimeout/vaultTimeoutSettings.service";
 
 import {
   tokenServiceFactory,

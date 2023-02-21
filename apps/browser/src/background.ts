@@ -28,8 +28,8 @@ if (BrowserApi.manifestVersion === 3) {
     }
   );
 } else {
-  const bitwardenMain = ((window as any).bitwardenMain = new MainBackground());
-  bitwardenMain.bootstrap().then(() => {
+  const personalwardenMain = ((window as any).personalwardenMain = new MainBackground());
+  personalwardenMain.bootstrap().then(() => {
     // Finished bootstrapping
   });
 }

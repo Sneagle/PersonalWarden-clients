@@ -1,22 +1,22 @@
 import { Component, OnDestroy, OnInit } from "@angular/core";
 import { Router } from "@angular/router";
 
-import { LoginWithDeviceComponent as BaseLoginWithDeviceComponent } from "@bitwarden/angular/auth/components/login-with-device.component";
-import { AnonymousHubService } from "@bitwarden/common/abstractions/anonymousHub.service";
-import { ApiService } from "@bitwarden/common/abstractions/api.service";
-import { AppIdService } from "@bitwarden/common/abstractions/appId.service";
-import { CryptoService } from "@bitwarden/common/abstractions/crypto.service";
-import { CryptoFunctionService } from "@bitwarden/common/abstractions/cryptoFunction.service";
-import { EnvironmentService } from "@bitwarden/common/abstractions/environment.service";
-import { I18nService } from "@bitwarden/common/abstractions/i18n.service";
-import { LogService } from "@bitwarden/common/abstractions/log.service";
-import { PasswordGenerationService } from "@bitwarden/common/abstractions/passwordGeneration.service";
-import { PlatformUtilsService } from "@bitwarden/common/abstractions/platformUtils.service";
-import { StateService } from "@bitwarden/common/abstractions/state.service";
-import { ValidationService } from "@bitwarden/common/abstractions/validation.service";
-import { AuthService } from "@bitwarden/common/auth/abstractions/auth.service";
-import { LoginService } from "@bitwarden/common/auth/abstractions/login.service";
-import { SyncService } from "@bitwarden/common/vault/abstractions/sync/sync.service.abstraction";
+import { LoginWithDeviceComponent as BaseLoginWithDeviceComponent } from "@personalwarden/angular/auth/components/login-with-device.component";
+import { AnonymousHubService } from "@personalwarden/common/abstractions/anonymousHub.service";
+import { ApiService } from "@personalwarden/common/abstractions/api.service";
+import { AppIdService } from "@personalwarden/common/abstractions/appId.service";
+import { CryptoService } from "@personalwarden/common/abstractions/crypto.service";
+import { CryptoFunctionService } from "@personalwarden/common/abstractions/cryptoFunction.service";
+import { EnvironmentService } from "@personalwarden/common/abstractions/environment.service";
+import { I18nService } from "@personalwarden/common/abstractions/i18n.service";
+import { LogService } from "@personalwarden/common/abstractions/log.service";
+import { PasswordGenerationService } from "@personalwarden/common/abstractions/passwordGeneration.service";
+import { PlatformUtilsService } from "@personalwarden/common/abstractions/platformUtils.service";
+import { StateService } from "@personalwarden/common/abstractions/state.service";
+import { ValidationService } from "@personalwarden/common/abstractions/validation.service";
+import { AuthService } from "@personalwarden/common/auth/abstractions/auth.service";
+import { LoginService } from "@personalwarden/common/auth/abstractions/login.service";
+import { SyncService } from "@personalwarden/common/vault/abstractions/sync/sync.service.abstraction";
 
 @Component({
   selector: "app-login-with-device",

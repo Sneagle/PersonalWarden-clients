@@ -1,8 +1,8 @@
 import { BehaviorSubject } from "rxjs";
 
-import { GlobalState } from "@bitwarden/common/models/domain/global-state";
-import { StorageOptions } from "@bitwarden/common/models/domain/storage-options";
-import { StateService as BaseStateService } from "@bitwarden/common/services/state.service";
+import { GlobalState } from "@personalwarden/common/models/domain/global-state";
+import { StorageOptions } from "@personalwarden/common/models/domain/storage-options";
+import { StateService as BaseStateService } from "@personalwarden/common/services/state.service";
 
 import { browserSession, sessionSync } from "../decorators/session-sync-observable";
 import { Account } from "../models/account";

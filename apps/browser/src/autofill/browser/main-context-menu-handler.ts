@@ -1,10 +1,10 @@
-import { I18nService } from "@bitwarden/common/abstractions/i18n.service";
-import { LogService } from "@bitwarden/common/abstractions/log.service";
-import { StateFactory } from "@bitwarden/common/factories/stateFactory";
-import { Utils } from "@bitwarden/common/misc/utils";
-import { GlobalState } from "@bitwarden/common/models/domain/global-state";
-import { CipherType } from "@bitwarden/common/vault/enums/cipher-type";
-import { CipherView } from "@bitwarden/common/vault/models/view/cipher.view";
+import { I18nService } from "@personalwarden/common/abstractions/i18n.service";
+import { LogService } from "@personalwarden/common/abstractions/log.service";
+import { StateFactory } from "@personalwarden/common/factories/stateFactory";
+import { Utils } from "@personalwarden/common/misc/utils";
+import { GlobalState } from "@personalwarden/common/models/domain/global-state";
+import { CipherType } from "@personalwarden/common/vault/enums/cipher-type";
+import { CipherView } from "@personalwarden/common/vault/models/view/cipher.view";
 
 import { CachedServices } from "../../background/service_factories/factory-options";
 import {
@@ -117,7 +117,7 @@ export class MainContextMenuHandler {
 
       await create({
         id: ROOT_ID,
-        title: "Bitwarden",
+        title: "PersonalWarden",
       });
 
       await create({

@@ -1,16 +1,16 @@
-import { AppIdService } from "@bitwarden/common/abstractions/appId.service";
-import { CryptoService } from "@bitwarden/common/abstractions/crypto.service";
-import { CryptoFunctionService } from "@bitwarden/common/abstractions/cryptoFunction.service";
-import { I18nService } from "@bitwarden/common/abstractions/i18n.service";
-import { LogService } from "@bitwarden/common/abstractions/log.service";
-import { MessagingService } from "@bitwarden/common/abstractions/messaging.service";
-import { PlatformUtilsService } from "@bitwarden/common/abstractions/platformUtils.service";
-import { StateService } from "@bitwarden/common/abstractions/state.service";
-import { AuthService } from "@bitwarden/common/auth/abstractions/auth.service";
-import { AuthenticationStatus } from "@bitwarden/common/auth/enums/authentication-status";
-import { Utils } from "@bitwarden/common/misc/utils";
-import { EncString } from "@bitwarden/common/models/domain/enc-string";
-import { SymmetricCryptoKey } from "@bitwarden/common/models/domain/symmetric-crypto-key";
+import { AppIdService } from "@personalwarden/common/abstractions/appId.service";
+import { CryptoService } from "@personalwarden/common/abstractions/crypto.service";
+import { CryptoFunctionService } from "@personalwarden/common/abstractions/cryptoFunction.service";
+import { I18nService } from "@personalwarden/common/abstractions/i18n.service";
+import { LogService } from "@personalwarden/common/abstractions/log.service";
+import { MessagingService } from "@personalwarden/common/abstractions/messaging.service";
+import { PlatformUtilsService } from "@personalwarden/common/abstractions/platformUtils.service";
+import { StateService } from "@personalwarden/common/abstractions/state.service";
+import { AuthService } from "@personalwarden/common/auth/abstractions/auth.service";
+import { AuthenticationStatus } from "@personalwarden/common/auth/enums/authentication-status";
+import { Utils } from "@personalwarden/common/misc/utils";
+import { EncString } from "@personalwarden/common/models/domain/enc-string";
+import { SymmetricCryptoKey } from "@personalwarden/common/models/domain/symmetric-crypto-key";
 
 import { BrowserApi } from "../browser/browserApi";
 
@@ -93,7 +93,7 @@ export class NativeMessagingBackground {
     this.stateService.setBiometricFingerprintValidated(false);
 
     return new Promise<void>((resolve, reject) => {
-      this.port = BrowserApi.connectNative("com.8bit.bitwarden");
+      this.port = BrowserApi.connectNative("com.8bit.personalwarden");
 
       this.connecting = true;
 

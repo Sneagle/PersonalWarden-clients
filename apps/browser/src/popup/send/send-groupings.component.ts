@@ -1,18 +1,18 @@
 import { ChangeDetectorRef, Component, NgZone } from "@angular/core";
 import { Router } from "@angular/router";
 
-import { SendComponent as BaseSendComponent } from "@bitwarden/angular/components/send/send.component";
-import { BroadcasterService } from "@bitwarden/common/abstractions/broadcaster.service";
-import { EnvironmentService } from "@bitwarden/common/abstractions/environment.service";
-import { I18nService } from "@bitwarden/common/abstractions/i18n.service";
-import { LogService } from "@bitwarden/common/abstractions/log.service";
-import { PlatformUtilsService } from "@bitwarden/common/abstractions/platformUtils.service";
-import { PolicyService } from "@bitwarden/common/abstractions/policy/policy.service.abstraction";
-import { SearchService } from "@bitwarden/common/abstractions/search.service";
-import { SendService } from "@bitwarden/common/abstractions/send.service";
-import { SendType } from "@bitwarden/common/enums/sendType";
-import { SendView } from "@bitwarden/common/models/view/send.view";
-import { SyncService } from "@bitwarden/common/vault/abstractions/sync/sync.service.abstraction";
+import { SendComponent as BaseSendComponent } from "@personalwarden/angular/components/send/send.component";
+import { BroadcasterService } from "@personalwarden/common/abstractions/broadcaster.service";
+import { EnvironmentService } from "@personalwarden/common/abstractions/environment.service";
+import { I18nService } from "@personalwarden/common/abstractions/i18n.service";
+import { LogService } from "@personalwarden/common/abstractions/log.service";
+import { PlatformUtilsService } from "@personalwarden/common/abstractions/platformUtils.service";
+import { PolicyService } from "@personalwarden/common/abstractions/policy/policy.service.abstraction";
+import { SearchService } from "@personalwarden/common/abstractions/search.service";
+import { SendService } from "@personalwarden/common/abstractions/send.service";
+import { SendType } from "@personalwarden/common/enums/sendType";
+import { SendView } from "@personalwarden/common/models/view/send.view";
+import { SyncService } from "@personalwarden/common/vault/abstractions/sync/sync.service.abstraction";
 
 import { BrowserSendComponentState } from "../../models/browserSendComponentState";
 import { BrowserStateService } from "../../services/abstractions/browser-state.service";

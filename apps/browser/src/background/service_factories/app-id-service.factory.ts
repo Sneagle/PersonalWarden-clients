@@ -1,7 +1,7 @@
 import { DiskStorageOptions } from "@koa/multer";
 
-import { AppIdService as AbstractAppIdService } from "@bitwarden/common/abstractions/appId.service";
-import { AppIdService } from "@bitwarden/common/services/appId.service";
+import { AppIdService as AbstractAppIdService } from "@personalwarden/common/abstractions/appId.service";
+import { AppIdService } from "@personalwarden/common/services/appId.service";
 
 import { FactoryOptions, CachedServices, factory } from "./factory-options";
 import { diskStorageServiceFactory } from "./storage-service.factory";

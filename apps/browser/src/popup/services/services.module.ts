@@ -1,78 +1,78 @@
 import { APP_INITIALIZER, LOCALE_ID, NgModule } from "@angular/core";
 
-import { LockGuard as BaseLockGuardService } from "@bitwarden/angular/auth/guards/lock.guard";
-import { UnauthGuard as BaseUnauthGuardService } from "@bitwarden/angular/auth/guards/unauth.guard";
-import { MEMORY_STORAGE, SECURE_STORAGE } from "@bitwarden/angular/services/injection-tokens";
-import { JslibServicesModule } from "@bitwarden/angular/services/jslib-services.module";
-import { ThemingService } from "@bitwarden/angular/services/theming/theming.service";
-import { AbstractThemingService } from "@bitwarden/angular/services/theming/theming.service.abstraction";
-import { ApiService } from "@bitwarden/common/abstractions/api.service";
-import { AppIdService } from "@bitwarden/common/abstractions/appId.service";
-import { AuditService } from "@bitwarden/common/abstractions/audit.service";
-import { CollectionService } from "@bitwarden/common/abstractions/collection.service";
-import { ConfigApiServiceAbstraction } from "@bitwarden/common/abstractions/config/config-api.service.abstraction";
-import { ConfigServiceAbstraction } from "@bitwarden/common/abstractions/config/config.service.abstraction";
-import { CryptoService } from "@bitwarden/common/abstractions/crypto.service";
-import { CryptoFunctionService } from "@bitwarden/common/abstractions/cryptoFunction.service";
-import { EncryptService } from "@bitwarden/common/abstractions/encrypt.service";
-import { EnvironmentService } from "@bitwarden/common/abstractions/environment.service";
-import { EventCollectionService } from "@bitwarden/common/abstractions/event/event-collection.service";
-import { EventUploadService } from "@bitwarden/common/abstractions/event/event-upload.service";
-import { ExportService } from "@bitwarden/common/abstractions/export.service";
-import { FileDownloadService } from "@bitwarden/common/abstractions/fileDownload/fileDownload.service";
-import { FileUploadService } from "@bitwarden/common/abstractions/fileUpload.service";
-import { I18nService as I18nServiceAbstraction } from "@bitwarden/common/abstractions/i18n.service";
-import { LogService as LogServiceAbstraction } from "@bitwarden/common/abstractions/log.service";
-import { MessagingService } from "@bitwarden/common/abstractions/messaging.service";
-import { NotificationsService } from "@bitwarden/common/abstractions/notifications.service";
-import { OrganizationService } from "@bitwarden/common/abstractions/organization/organization.service.abstraction";
-import { PasswordGenerationService } from "@bitwarden/common/abstractions/passwordGeneration.service";
-import { PlatformUtilsService } from "@bitwarden/common/abstractions/platformUtils.service";
-import { PolicyApiServiceAbstraction } from "@bitwarden/common/abstractions/policy/policy-api.service.abstraction";
+import { LockGuard as BaseLockGuardService } from "@personalwarden/angular/auth/guards/lock.guard";
+import { UnauthGuard as BaseUnauthGuardService } from "@personalwarden/angular/auth/guards/unauth.guard";
+import { MEMORY_STORAGE, SECURE_STORAGE } from "@personalwarden/angular/services/injection-tokens";
+import { JslibServicesModule } from "@personalwarden/angular/services/jslib-services.module";
+import { ThemingService } from "@personalwarden/angular/services/theming/theming.service";
+import { AbstractThemingService } from "@personalwarden/angular/services/theming/theming.service.abstraction";
+import { ApiService } from "@personalwarden/common/abstractions/api.service";
+import { AppIdService } from "@personalwarden/common/abstractions/appId.service";
+import { AuditService } from "@personalwarden/common/abstractions/audit.service";
+import { CollectionService } from "@personalwarden/common/abstractions/collection.service";
+import { ConfigApiServiceAbstraction } from "@personalwarden/common/abstractions/config/config-api.service.abstraction";
+import { ConfigServiceAbstraction } from "@personalwarden/common/abstractions/config/config.service.abstraction";
+import { CryptoService } from "@personalwarden/common/abstractions/crypto.service";
+import { CryptoFunctionService } from "@personalwarden/common/abstractions/cryptoFunction.service";
+import { EncryptService } from "@personalwarden/common/abstractions/encrypt.service";
+import { EnvironmentService } from "@personalwarden/common/abstractions/environment.service";
+import { EventCollectionService } from "@personalwarden/common/abstractions/event/event-collection.service";
+import { EventUploadService } from "@personalwarden/common/abstractions/event/event-upload.service";
+import { ExportService } from "@personalwarden/common/abstractions/export.service";
+import { FileDownloadService } from "@personalwarden/common/abstractions/fileDownload/fileDownload.service";
+import { FileUploadService } from "@personalwarden/common/abstractions/fileUpload.service";
+import { I18nService as I18nServiceAbstraction } from "@personalwarden/common/abstractions/i18n.service";
+import { LogService as LogServiceAbstraction } from "@personalwarden/common/abstractions/log.service";
+import { MessagingService } from "@personalwarden/common/abstractions/messaging.service";
+import { NotificationsService } from "@personalwarden/common/abstractions/notifications.service";
+import { OrganizationService } from "@personalwarden/common/abstractions/organization/organization.service.abstraction";
+import { PasswordGenerationService } from "@personalwarden/common/abstractions/passwordGeneration.service";
+import { PlatformUtilsService } from "@personalwarden/common/abstractions/platformUtils.service";
+import { PolicyApiServiceAbstraction } from "@personalwarden/common/abstractions/policy/policy-api.service.abstraction";
 import {
   InternalPolicyService,
   PolicyService,
-} from "@bitwarden/common/abstractions/policy/policy.service.abstraction";
-import { ProviderService } from "@bitwarden/common/abstractions/provider.service";
-import { SearchService as SearchServiceAbstraction } from "@bitwarden/common/abstractions/search.service";
-import { SendService } from "@bitwarden/common/abstractions/send.service";
-import { SettingsService } from "@bitwarden/common/abstractions/settings.service";
+} from "@personalwarden/common/abstractions/policy/policy.service.abstraction";
+import { ProviderService } from "@personalwarden/common/abstractions/provider.service";
+import { SearchService as SearchServiceAbstraction } from "@personalwarden/common/abstractions/search.service";
+import { SendService } from "@personalwarden/common/abstractions/send.service";
+import { SettingsService } from "@personalwarden/common/abstractions/settings.service";
 import {
   StateService as BaseStateServiceAbstraction,
   StateService,
-} from "@bitwarden/common/abstractions/state.service";
-import { StateMigrationService } from "@bitwarden/common/abstractions/stateMigration.service";
+} from "@personalwarden/common/abstractions/state.service";
+import { StateMigrationService } from "@personalwarden/common/abstractions/stateMigration.service";
 import {
   AbstractMemoryStorageService,
   AbstractStorageService,
-} from "@bitwarden/common/abstractions/storage.service";
-import { TotpService } from "@bitwarden/common/abstractions/totp.service";
-import { UserVerificationService } from "@bitwarden/common/abstractions/userVerification/userVerification.service.abstraction";
-import { UsernameGenerationService } from "@bitwarden/common/abstractions/usernameGeneration.service";
-import { VaultTimeoutService } from "@bitwarden/common/abstractions/vaultTimeout/vaultTimeout.service";
-import { VaultTimeoutSettingsService } from "@bitwarden/common/abstractions/vaultTimeout/vaultTimeoutSettings.service";
-import { AuthService as AuthServiceAbstraction } from "@bitwarden/common/auth/abstractions/auth.service";
-import { KeyConnectorService } from "@bitwarden/common/auth/abstractions/key-connector.service";
-import { LoginService as LoginServiceAbstraction } from "@bitwarden/common/auth/abstractions/login.service";
-import { TokenService } from "@bitwarden/common/auth/abstractions/token.service";
-import { TwoFactorService } from "@bitwarden/common/auth/abstractions/two-factor.service";
-import { AuthService } from "@bitwarden/common/auth/services/auth.service";
-import { LoginService } from "@bitwarden/common/auth/services/login.service";
-import { StateFactory } from "@bitwarden/common/factories/stateFactory";
-import { GlobalState } from "@bitwarden/common/models/domain/global-state";
-import { ConsoleLogService } from "@bitwarden/common/services/consoleLog.service";
-import { ContainerService } from "@bitwarden/common/services/container.service";
-import { PolicyApiService } from "@bitwarden/common/services/policy/policy-api.service";
-import { SearchService } from "@bitwarden/common/services/search.service";
-import { CipherService } from "@bitwarden/common/vault/abstractions/cipher.service";
-import { FolderApiServiceAbstraction } from "@bitwarden/common/vault/abstractions/folder/folder-api.service.abstraction";
+} from "@personalwarden/common/abstractions/storage.service";
+import { TotpService } from "@personalwarden/common/abstractions/totp.service";
+import { UserVerificationService } from "@personalwarden/common/abstractions/userVerification/userVerification.service.abstraction";
+import { UsernameGenerationService } from "@personalwarden/common/abstractions/usernameGeneration.service";
+import { VaultTimeoutService } from "@personalwarden/common/abstractions/vaultTimeout/vaultTimeout.service";
+import { VaultTimeoutSettingsService } from "@personalwarden/common/abstractions/vaultTimeout/vaultTimeoutSettings.service";
+import { AuthService as AuthServiceAbstraction } from "@personalwarden/common/auth/abstractions/auth.service";
+import { KeyConnectorService } from "@personalwarden/common/auth/abstractions/key-connector.service";
+import { LoginService as LoginServiceAbstraction } from "@personalwarden/common/auth/abstractions/login.service";
+import { TokenService } from "@personalwarden/common/auth/abstractions/token.service";
+import { TwoFactorService } from "@personalwarden/common/auth/abstractions/two-factor.service";
+import { AuthService } from "@personalwarden/common/auth/services/auth.service";
+import { LoginService } from "@personalwarden/common/auth/services/login.service";
+import { StateFactory } from "@personalwarden/common/factories/stateFactory";
+import { GlobalState } from "@personalwarden/common/models/domain/global-state";
+import { ConsoleLogService } from "@personalwarden/common/services/consoleLog.service";
+import { ContainerService } from "@personalwarden/common/services/container.service";
+import { PolicyApiService } from "@personalwarden/common/services/policy/policy-api.service";
+import { SearchService } from "@personalwarden/common/services/search.service";
+import { CipherService } from "@personalwarden/common/vault/abstractions/cipher.service";
+import { FolderApiServiceAbstraction } from "@personalwarden/common/vault/abstractions/folder/folder-api.service.abstraction";
 import {
   FolderService,
   InternalFolderService,
-} from "@bitwarden/common/vault/abstractions/folder/folder.service.abstraction";
-import { PasswordRepromptService as PasswordRepromptServiceAbstraction } from "@bitwarden/common/vault/abstractions/password-reprompt.service";
-import { SyncService } from "@bitwarden/common/vault/abstractions/sync/sync.service.abstraction";
-import { FolderApiService } from "@bitwarden/common/vault/services/folder/folder-api.service";
+} from "@personalwarden/common/vault/abstractions/folder/folder.service.abstraction";
+import { PasswordRepromptService as PasswordRepromptServiceAbstraction } from "@personalwarden/common/vault/abstractions/password-reprompt.service";
+import { SyncService } from "@personalwarden/common/vault/abstractions/sync/sync.service.abstraction";
+import { FolderApiService } from "@personalwarden/common/vault/services/folder/folder-api.service";
 
 import { LockGuardService, UnauthGuardService } from "../../auth/popup/services";
 import { AutofillService } from "../../autofill/services/abstractions/autofill.service";
@@ -103,7 +103,7 @@ const needsBackgroundInit = BrowserApi.getBackgroundPage() == null;
 const isPrivateMode = needsBackgroundInit && BrowserApi.manifestVersion !== 3;
 const mainBackground: MainBackground = needsBackgroundInit
   ? createLocalBgService()
-  : BrowserApi.getBackgroundPage().bitwardenMain;
+  : BrowserApi.getBackgroundPage().personalwardenMain;
 
 function createLocalBgService() {
   const localBgService = new MainBackground(isPrivateMode);

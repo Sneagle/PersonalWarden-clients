@@ -1,20 +1,20 @@
 import { Component, NgZone } from "@angular/core";
 import { Router } from "@angular/router";
 
-import { LockComponent as BaseLockComponent } from "@bitwarden/angular/auth/components/lock.component";
-import { ApiService } from "@bitwarden/common/abstractions/api.service";
-import { CryptoService } from "@bitwarden/common/abstractions/crypto.service";
-import { EnvironmentService } from "@bitwarden/common/abstractions/environment.service";
-import { I18nService } from "@bitwarden/common/abstractions/i18n.service";
-import { LogService } from "@bitwarden/common/abstractions/log.service";
-import { MessagingService } from "@bitwarden/common/abstractions/messaging.service";
-import { PlatformUtilsService } from "@bitwarden/common/abstractions/platformUtils.service";
-import { StateService } from "@bitwarden/common/abstractions/state.service";
-import { VaultTimeoutService } from "@bitwarden/common/abstractions/vaultTimeout/vaultTimeout.service";
-import { VaultTimeoutSettingsService } from "@bitwarden/common/abstractions/vaultTimeout/vaultTimeoutSettings.service";
-import { AuthService } from "@bitwarden/common/auth/abstractions/auth.service";
-import { KeyConnectorService } from "@bitwarden/common/auth/abstractions/key-connector.service";
-import { AuthenticationStatus } from "@bitwarden/common/auth/enums/authentication-status";
+import { LockComponent as BaseLockComponent } from "@personalwarden/angular/auth/components/lock.component";
+import { ApiService } from "@personalwarden/common/abstractions/api.service";
+import { CryptoService } from "@personalwarden/common/abstractions/crypto.service";
+import { EnvironmentService } from "@personalwarden/common/abstractions/environment.service";
+import { I18nService } from "@personalwarden/common/abstractions/i18n.service";
+import { LogService } from "@personalwarden/common/abstractions/log.service";
+import { MessagingService } from "@personalwarden/common/abstractions/messaging.service";
+import { PlatformUtilsService } from "@personalwarden/common/abstractions/platformUtils.service";
+import { StateService } from "@personalwarden/common/abstractions/state.service";
+import { VaultTimeoutService } from "@personalwarden/common/abstractions/vaultTimeout/vaultTimeout.service";
+import { VaultTimeoutSettingsService } from "@personalwarden/common/abstractions/vaultTimeout/vaultTimeoutSettings.service";
+import { AuthService } from "@personalwarden/common/auth/abstractions/auth.service";
+import { KeyConnectorService } from "@personalwarden/common/auth/abstractions/key-connector.service";
+import { AuthenticationStatus } from "@personalwarden/common/auth/enums/authentication-status";
 
 import { BiometricErrors, BiometricErrorTypes } from "../../models/biometricErrors";
 

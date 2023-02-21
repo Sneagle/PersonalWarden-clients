@@ -1,5 +1,5 @@
-import { FileUploadService as AbstractFileUploadService } from "@bitwarden/common/abstractions/fileUpload.service";
-import { FileUploadService } from "@bitwarden/common/services/fileUpload.service";
+import { FileUploadService as AbstractFileUploadService } from "@personalwarden/common/abstractions/fileUpload.service";
+import { FileUploadService } from "@personalwarden/common/services/fileUpload.service";
 
 import { apiServiceFactory, ApiServiceInitOptions } from "./api-service.factory";
 import { FactoryOptions, CachedServices, factory } from "./factory-options";

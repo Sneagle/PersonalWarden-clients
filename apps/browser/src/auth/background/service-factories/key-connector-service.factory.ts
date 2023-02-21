@@ -1,5 +1,5 @@
-import { KeyConnectorService as AbstractKeyConnectorService } from "@bitwarden/common/auth/abstractions/key-connector.service";
-import { KeyConnectorService } from "@bitwarden/common/auth/services/key-connector.service";
+import { KeyConnectorService as AbstractKeyConnectorService } from "@personalwarden/common/auth/abstractions/key-connector.service";
+import { KeyConnectorService } from "@personalwarden/common/auth/services/key-connector.service";
 
 import {
   apiServiceFactory,

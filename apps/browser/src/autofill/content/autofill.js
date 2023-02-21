@@ -36,7 +36,7 @@
   3.  Unminify and format to meet Mozilla review requirements.
   4.  Remove unnecessary input types from getFormElements query selector and limit number of elements returned.
   5.  Remove fakeTested prop.
-  6.  Rename com.agilebits.* stuff to com.bitwarden.*
+  6.  Rename com.agilebits.* stuff to com.personalwarden.*
   7.  Remove "some useful globals" on window
   8.  Add ability to autofill span[data-bwautofill] elements
   9.  Add new handler, for new command that responds with page details in response callback
@@ -1130,10 +1130,10 @@
 
           // START MODIFICATION
           if (canSeeElementToStyle(el)) {
-              el.classList.add('com-bitwarden-browser-animated-fill');
+              el.classList.add('com-personalwarden-browser-animated-fill');
               setTimeout(function () {
                   if (el) {
-                      el.classList.remove('com-bitwarden-browser-animated-fill');
+                      el.classList.remove('com-personalwarden-browser-animated-fill');
                   }
               }, styleTimeout);
           }

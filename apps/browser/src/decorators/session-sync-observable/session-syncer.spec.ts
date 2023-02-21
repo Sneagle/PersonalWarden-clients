@@ -1,8 +1,8 @@
-import { awaitAsync } from "@bitwarden/angular/../test-utils";
+import { awaitAsync } from "@personalwarden/angular/../test-utils";
 import { mock, MockProxy } from "jest-mock-extended";
 import { BehaviorSubject, ReplaySubject } from "rxjs";
 
-import { MemoryStorageService } from "@bitwarden/common/services/memoryStorage.service";
+import { MemoryStorageService } from "@personalwarden/common/services/memoryStorage.service";
 
 import { BrowserApi } from "../../browser/browserApi";
 
@@ -25,7 +25,7 @@ describe("session syncer", () => {
   beforeEach(() => {
     behaviorSubject = new BehaviorSubject<string>("");
     jest.spyOn(chrome.runtime, "getManifest").mockReturnValue({
-      name: "bitwarden-test",
+      name: "personalwarden-test",
       version: "0.0.0",
       manifest_version: 3,
     });
